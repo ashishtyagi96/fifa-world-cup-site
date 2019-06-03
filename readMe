@@ -1,0 +1,28 @@
+This is an AngularJS single page webApp of FIFA WORLD CUP 2018 RUSSIA made using NodeJS(expresJS) and mongoDB database.
+
+# Stacks used :-
+  1) HTML
+  2) CSS
+  3) AngularJS
+  4) NodeJS
+  5) ExpressJS
+  6) MongoDB
+
+# Setting up project in local system
+  1) Clone this repository into you system.
+  2) Get into the directory /fifa-world-cup-site
+  3) Run npm install in terminal to download all dependencies from package.json
+  4) Now setting up database in mongoDB:-
+      -> download mongoDB into your system.
+      -> After installing mongoDB create database 'fifa'.
+      -> Use database 'fifa' and create a collection name 'newfifa'
+      -> load all data from folder database file into this collection.
+      -> Your database is all set to be used.
+  5) Now run in terminal following commmand:-
+      -> node app.js                                 // starting your node.js server
+  6) Go to your Browser and open the following link :-
+      -> http://localhost:4000                       //main page of your application
+  7) Your application is up and running.
+  8) Folder 'fifa world cup (snapshot)' in the repository has snaps of websites frontend.
+  
+  
