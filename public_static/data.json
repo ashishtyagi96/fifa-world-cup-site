@@ -1,0 +1,3265 @@
+{
+  "Stats":{
+    "player":{
+      "topScorer":[
+        {
+          "name":"Christiano Ronaldo",
+          "team":"Portugal",
+          "goals":3
+        },
+        {
+          "name":"Denis Cheryshev",
+          "team":"Russia",
+          "goals":2
+        },
+        {
+          "name":"Diego Costa",
+          "team":"Spain",
+          "goals":2
+        },
+        {
+          "name":"Romelu Lukaku",
+          "team":"Belgium",
+          "goals":2
+        },
+        {
+          "name":"Harry Kane",
+          "team":"England",
+          "goals":2
+        },
+        {
+          "name":"Aleksandr Golovin",
+          "team":"Russia",
+          "goals":1
+        },
+        {
+          "name":"Artem Dzyuba",
+          "team":"Russia",
+          "goals":1
+        },
+        {
+          "name":"Hirving Lozano",
+          "team":"Mexico",
+          "goals":1
+        },
+        {
+          "name":"Antoine Griezmann",
+          "team":"France",
+          "goals":1
+        },
+        {
+          "name":"Alfred Finnbogason",
+          "team":"Iceland",
+          "goals":1
+        },
+        {
+          "name":"Fernandez Nacho",
+          "team":"Spain",
+          "goals":1
+        },
+        {
+          "name":"Yury Gazinsky",
+          "team":"Russia",
+          "goals":1
+        },
+        {
+          "name":"Sergio Agüero",
+          "team":"Argentina",
+          "goals":1
+        },
+        {
+          "name":"Luka Modric",
+          "team":"Croatia",
+          "goals":1
+        },
+        {
+          "name":"Mile Jedinak",
+          "team":"Australia",
+          "goals":1
+        },
+        {
+          "name":"José Giménez",
+          "team":"Uruguay",
+          "goals":1
+        },
+        {
+          "name":"Yussuf Poulsen",
+          "team":"Denmark",
+          "goals":1
+        },
+        {
+          "name":"Aleksandar Kolarov",
+          "team":"Serbia",
+          "goals":1
+        },
+        {
+          "name":"Steven Zuber",
+          "team":"Switzerland",
+          "goals":1
+        },
+        {
+          "name":"Philip Coutinho",
+          "team":"Brazil",
+          "goals":1
+        },
+        {
+          "name":"Andreas Granqvist",
+          "team":"Sweden",
+          "goals":1
+        },
+        {
+          "name":"Dries Mertens",
+          "team":"Belgium",
+          "goals":1
+        },
+        {
+          "name":"Ferjani Sassi",
+          "team":"Tunisia",
+          "goals":1
+        }
+
+
+      ],
+      "mostAssist":[
+        {"name":"Aleksandr Golovin","team":"Russia","goals":2},
+        {"name":"Busquets","team":"Spain","goals":1},
+        {"name":"Cristiano Ronaldo","team":"Portgal","goals":1},
+        {"name":"Artem Dzyuba","team":"Russia","goals":1},
+        {"name":"Christian Eriksen","team":"Denmark","goals":1},
+        {"name":"Gonçalo Guedes","team":"Portugal","goals":1},
+        {"name":"Javier Hernández","team":"Mexico","goals":1},
+        {"name":"Mario Mandžukić","team":"Croatia","goals":1},
+        {"name":"Aleksandar Mitrović","team":"Serbia","goals":1},
+        {"name":"Marcos Rojo","team":"Argentina","goals":1},
+        {"name":"Carlos Sánchez","team":"Uruguay","goals":1},
+        {"name":"Xherdan Shaqiri","team":"Switzerland","goals":1},
+        {"name":"Roman Zobnin","team":"Russia","goals":1}],
+      "cleanSheet":[
+        {
+          "name":"Igor Akinfeev",
+          "team":"Russia",
+          "matches":1
+        },
+        {
+          "name":"Fernando Muslera",
+          "team":"Uruguay",
+          "matches":1
+        },
+        {
+          "name":"Alireza Beiranvand",
+          "team":"Iran",
+          "matches":1
+        },
+        {
+          "name":"Kasper Schmeichel",
+          "team":"Denmark",
+          "matches":1
+        },
+        {
+          "name":"Danijel Subašić",
+          "team":"Croatia",
+          "matches":1
+        },
+        {
+          "name":"Vladimir Stojković",
+          "team":"Serbia",
+          "matches":1
+        },
+        {
+          "name":"Guillermo Ochoa",
+          "team":"Mexico",
+          "matches":1
+        },
+        {
+          "name":"Robin Olsen",
+          "team":"Sweden",
+          "matches":1
+        }
+      ],
+      "redCard":[]
+    },
+    "team":{
+      "goal":[
+        {
+          "team":"Russia",
+          "goals":5
+        },
+        {
+          "team":"Portugal",
+          "goals":3
+        },
+        {
+          "team":"Spain",
+          "goals":3
+        },
+        {
+          "team":"France",
+          "goals":2
+        },
+        {
+          "team":"Croatia",
+          "goals":2
+        },
+        {
+          "team":"Uruguay",
+          "goals":1
+        },
+        {
+          "team":"Iran",
+          "goals":1
+        },
+        {
+          "team":"Australia",
+          "goals":1
+        },
+        {
+          "team":"Argentina",
+          "goals":1
+        },
+        {
+          "team":"Iceland",
+          "goals":1
+        },
+        {
+          "team":"Denmark",
+          "goals":1
+        },
+        {
+          "team":"Serbia",
+          "goals":1
+        },
+        {
+          "team":"Mexico",
+          "goals":1
+        },
+        {
+          "team":"Brazil",
+          "goals":1
+        },
+        {
+          "team":"Switzerland",
+          "goals":1
+        },
+        {
+          "team":"Sweden",
+          "goals":1
+        }
+
+      ],
+      "cleanSheet":[
+        {
+          "team":"Russia",
+          "matches":1
+        },
+        {
+          "team":"Uruguay",
+          "matches":1
+        },
+        {
+          "team":"Iran",
+          "matches":1
+        },
+        {
+          "team":"Denmark",
+          "matches":1
+        },
+        {
+          "team":"Croatia",
+          "matches":1
+        },
+        {
+          "team":"Serbia",
+          "matches":1
+        },
+        {
+          "team":"Mexico",
+          "matches":1
+        },
+        {
+          "team":"Switzerland",
+          "mathces":1
+        }
+      ],
+      "redCard":[]
+    }
+  },
+  "stadiums": [
+    {
+      "id": 1,
+      "name": "Luzhniki Stadium",
+      "city": "Moscow",
+      "lat": 55.715765,
+      "lng": 37.5515217,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Luzhniki_Stadium%2C_Moscow.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Otkrytiye Arena",
+      "city": "Moscow",
+      "lat": 55.817765,
+      "lng": 37.440363,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Stadium_Spartak_in_Moscow.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Krestovsky Stadium",
+      "city": "Saint Petersburg",
+      "lat": 59.972740,
+      "lng": 30.221408,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spb_06-2017_img40_Krestovsky_Stadium.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kaliningrad Stadium",
+      "city": "Kaliningrad",
+      "lat": 54.698157,
+      "lng": 20.533859,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Kaliningrad_stadium_-_2018-04-07.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Kazan Arena",
+      "city": "Kazan",
+      "lat": 55.820983,
+      "lng": 49.160966,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Kazan_Arena_08-2016.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Nizhny Novgorod Stadium",
+      "city": "Nizhny Novgorod",
+      "lat": 56.337287,
+      "lng": 43.963251,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/Nizhny_Novgorod_Stadium_%28March_2018%29.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Cosmos Arena",
+      "city": "Samara",
+      "lat": 53.278146,
+      "lng": 50.238854,
+      "image": "http://img.fifa.com/image/upload/t_l4/d0mymt1ubl2pypmu3gn3.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Volgograd Arena",
+      "city": "Volgograd",
+      "lat": 48.734195,
+      "lng": 44.548345,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Construction_of_Volgograd_Arena_inside_04.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Mordovia Arena",
+      "city": "Saransk",
+      "lat": 54.181795,
+      "lng": 45.203851,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD_Mordovia_arena.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Rostov Arena",
+      "city": "Rostov-on-Don",
+      "lat": 47.209581,
+      "lng": 39.738424,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Rostov-Arens_%28april_2018%29_01.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Fisht Olympic Stadium",
+      "city": "Sochi",
+      "lat": 43.402011,
+      "lng": 39.955709,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Fisht_Stadium_in_January_2018.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Central Stadium",
+      "city": "Yekaterinburg",
+      "lat": 56.832490,
+      "lng": 60.573585,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Estadio_Central_%28Ekaterinburg-arena%29.jpg"
+    }
+  ],
+  "tvchannels": [
+    {
+      "id": 1,
+      "name": "DR1",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/88/DR1_logo_2013.svg",
+      "country": "Denmark",
+      "iso2": "dk",
+      "lang": ["da"]
+    },
+    {
+      "id": 2,
+      "name": "TV2",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/8/85/Danish_TV_2_logo.png",
+      "country": "Denmark",
+      "iso2": "dk",
+      "lang": ["da"]
+    },
+    {
+      "id": 3,
+      "name": "BBC UK",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/e/eb/BBC.svg",
+      "country": "UK",
+      "iso2": "en",
+      "lang": ["en"]
+    },
+    {
+      "id": 4,
+      "name": "ITV UK",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/9/92/ITV_logo_2013.svg",
+      "country": "UK",
+      "iso2": "en",
+      "lang": ["en"]
+    },
+    {
+      "id": 5,
+      "name": "ITV4 UK",
+      "icon": "https://upload.wikimedia.org/wikipedia/en/9/92/ITV_logo_2013.svg",
+      "country": "UK",
+      "iso2": "en",
+      "lang": ["en"]
+    },
+    {
+      "id": 6,
+      "name": "Cuatro",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Logotipo_de_Cuatro.svg",
+      "country": "Spain",
+      "iso2": "es",
+      "lang": ["es"]
+    },
+    {
+      "id": 7,
+      "name": "Telecinco",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/7/75/Telecinco_2012.png",
+      "country": "Spain",
+      "iso2": "es",
+      "lang": ["es"]
+    },
+    {
+      "id": 8,
+      "name": "Globo",
+      "icon": "https://upload.wikimedia.org/wikipedia/pt/2/22/Logotipo_da_Rede_Globo.png",
+      "country": "Brazil",
+      "iso2": "br",
+      "lang": ["pt-br"]
+    },
+    {
+      "id": 9,
+      "name": "SportTV",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/SporTV_2017_logo.svg/692px-SporTV_2017_logo.svg.png",
+      "country": "Brazil",
+      "iso2": "br",
+      "lang": ["pt-br"]
+    },
+    {
+      "id": 10,
+      "name": "SportTV2",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/SporTV_2_2017_logo.svg/664px-SporTV_2_2017_logo.svg.png",
+      "country": "Brazil",
+      "iso2": "br",
+      "lang": ["pt-br"]
+    },
+    {
+      "id": 11,
+      "name": "SportTV3",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SporTV_3_2017_logo.svg/703px-SporTV_3_2017_logo.svg.png",
+      "country": "Brazil",
+      "iso2": "br",
+      "lang": ["pt-br"]
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference": 5,
+        "points":3
+
+      },
+      "coach":"Stanislav Cherchesov",
+      "captain":"Igor Akinfeev",
+      "squad":[
+        [1,"Goalkeeper","Igor Akinfeev","8 April 1986 (aged 32)",105,0,"Russia CSKA Moscow"],
+        [2,"Defender","Mário Fernandes","19 September 1990 (aged 27)",4,0,"Russia CSKA Moscow"],
+        [3,"Defender","Ilya Kutepov","29 July 1993 (aged 24)",6,0,"Russia Spartak Moscow"],
+        [4,"Defender","Sergei Ignashevich","14 July 1979 (aged 38)",121,8,"Russia CSKA Moscow"],
+        [5,"Defender","Andrei Semyonov","24 March 1989 (aged 29)",6,0,"Russia Akhmat Grozny"],
+        [6,"Midfielder","Denis Cheryshev","26 December 1990 (aged 27)",11,0,"Spain Villarreal"],
+        [7,"Midfielder","Daler Kuzyayev","15 January 1993 (aged 25)",5,0,"Russia Zenit Saint Petersburg"],
+        [8,"Midfielder","Yury Gazinsky","20 July 1989 (aged 28)",5,0,"Russia Krasnodar"],
+        [9,"Midfielder","Alan Dzagoev","17 June 1990 (aged 27)",56,9,"Russia CSKA Moscow"],
+        [10,"Forward","Fyodor Smolov","9 February 1990 (aged 28)",31,12,"Russia Krasnodar"],
+        [11,"Midfielder","Roman Zobnin","11 February 1994 (aged 24)",11,0,"Russia Spartak Moscow"],
+        [12,"Goalkeeper","Andrey Lunyov","13 November 1991 (aged 26)",3,0,"Russia Zenit Saint Petersburg"],
+        [13,"Defender","Fyodor Kudryashov","5 April 1987 (aged 31)",18,0,"Russia Rubin Kazan"],
+        [14,"Defender","Vladimir Granat","22 May 1987 (aged 31)",12,1,"Russia Rubin Kazan"],
+        [15,"Midfielder","Aleksei Miranchuk","17 October 1995 (aged 22)",17,4,"Russia Lokomotiv Moscow"],
+        [16,"Midfielder","Anton Miranchuk","17 October 1995 (aged 22)",5,0,"Russia Lokomotiv Moscow"],
+        [17,"Midfielder","Aleksandr Golovin","30 May 1996 (aged 22)",18,2,"Russia CSKA Moscow"],
+        [18,"Midfielder","Yuri Zhirkov","20 August 1983 (aged 34)",83,2,"Russia Zenit Saint Petersburg"],
+        [19,"Midfielder","Aleksandr Samedov","19 July 1984 (aged 33)",47,6,"Russia Spartak Moscow"],
+        [20,"Goalkeeper","Vladimir Gabulov","19 October 1983 (aged 34)",10,0,"Belgium Club Brugge"],
+        [21,"Midfielder","Aleksandr Yerokhin","13 October 1989 (aged 28)",17,0,"Russia Zenit Saint Petersburg"],
+        [22,"Forward","Artem Dzyuba","22 August 1988 (aged 29)",23,11,"Russia Arsenal Tula"],
+        [23,"Defender","Igor Smolnikov","8 August 1988 (aged 29)",26,0,"Russia Zenit Saint Petersburg"]
+      ] ,
+      "name": "Russia",
+      "fifaCode": "RUS",
+      "iso2": "ru",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/900px-Flag_of_Russia.png",
+      "emoji": "flag-ru",
+      "emojiString": "🇷🇺"
+    },
+    {
+      "id": 2,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-5,
+        "points":0
+
+      },
+      "coach":"Juan Antonio Pizzi",
+      "captain":"Osama Hawsawi",
+      "squad":[
+        [1,"Goalkeeper","Abdullah Al-Mayouf","23 January 1987 (aged 31)",10,0,"Saudi Arabia Al-Hilal"],
+        [2,"Defender","Mansoor Al-Harbi","19 October 1987 (aged 30)",39,1,"Saudi Arabia Al-Ahli"],
+        [3,"Defender","Osama Hawsawi","31 March 1984 (aged 34)",134,7,"Saudi Arabia Al-Hilal"],
+        [4,"Defender","Ali Al-Bulaihi","21 November 1989 (aged 28)",3,0,"Saudi Arabia Al-Hilal"],
+        [5,"Defender","Omar Hawsawi","27 September 1985 (aged 32)",41,3,"Saudi Arabia Al-Nassr"],
+        [6,"Defender","Mohammed Al-Breik","15 September 1992 (aged 25)",10,1,"Saudi Arabia Al-Hilal"],
+        [7,"Midfielder","Salman Al-Faraj","1 August 1989 (aged 28)",42,3,"Saudi Arabia Al-Hilal"],
+        [8,"Midfielder","Yahya Al-Shehri","26 June 1990 (aged 27)",56,8,"Spain Leganés"],
+        [9,"Midfielder","Hattan Bahebri","16 July 1992 (aged 25)",4,0,"Saudi Arabia Al-Shabab"],
+        [10,"Forward","Mohammad Al-Sahlawi","10 January 1987 (aged 31)",39,28,"Saudi Arabia Al-Nassr"],
+        [11,"Midfielder","Abdulmalek Al-Khaibri","13 March 1986 (aged 32)",36,0,"Saudi Arabia Al-Hilal"],
+        [12,"Midfielder","Mohamed Kanno","22 September 1994 (aged 23)",6,1,"Saudi Arabia Al-Hilal"],
+        [13,"Defender","Yasser Al-Shahrani","25 May 1992 (aged 26)",36,0,"Saudi Arabia Al-Hilal"],
+        [14,"Midfielder","Abdullah Otayf","3 August 1992 (aged 25)",15,1,"Saudi Arabia Al-Hilal"],
+        [15,"Midfielder","Abdullah Al-Khaibari","16 August 1996 (aged 21)",4,0,"Saudi Arabia Al-Shabab"],
+        [16,"Midfielder","Housain Al-Mogahwi","24 March 1988 (aged 30)",17,1,"Saudi Arabia Al-Ahli"],
+        [17,"Midfielder","Taisir Al-Jassim","25 July 1984 (aged 33)",131,18,"Saudi Arabia Al-Ahli"],
+        [18,"Midfielder","Salem Al-Dawsari","19 August 1991 (aged 26)",32,4,"Spain Villarreal"],
+        [19,"Forward","Fahad Al-Muwallad","14 September 1994 (aged 23)",44,10,"Spain Levante"],
+        [20,"Forward","Muhannad Assiri","14 October 1986 (aged 31)",18,4,"Saudi Arabia Al-Ahli"],
+        [21,"Goalkeeper","Yasser Al-Mosailem","27 February 1984 (aged 34)",32,0,"Saudi Arabia Al-Ahli"],
+        [22,"Goalkeeper","Mohammed Al-Owais","10 October 1991 (aged 26)",6,0,"Saudi Arabia Al-Ahli"],
+        [23,"Defender","Motaz Hawsawi","17 February 1992 (aged 26)",17,0,"Saudi Arabia Al-Ahli"]
+      ],
+      "name": "Saudi Arabia",
+      "fifaCode": "KSA",
+      "iso2": "sa",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/750px-Flag_of_Saudi_Arabia.png",
+      "emoji": "flag-sa",
+      "emojiString": "🇸🇦"
+    },
+    {
+      "id": 3,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Héctor Cúper",
+      "captain":"Essam El-Hadary",
+      "squad":[
+        [1,"Goalkeeper","Essam El-Hadary","15 January 1973 (aged 45)",157,0,"Saudi Arabia Al-Taawoun"],
+        [2,"Defender","Ali Gabr","1 January 1989 (aged 29)",20,1,"England West Bromwich Albion"],
+        [3,"Defender","Ahmed Elmohamady","9 September 1987 (aged 30)",77,2,"England Aston Villa"],
+        [4,"Midfielder","Omar Gaber","30 January 1992 (aged 26)",23,0,"United States Los Angeles FC"],
+        [5,"Midfielder","Sam Morsy","10 September 1991 (aged 26)",4,0,"England Wigan Athletic"],
+        [6,"Defender","Ahmed Hegazi","25 January 1991 (aged 27)",44,1,"England West Bromwich Albion"],
+        [7,"Defender","Ahmed Fathy","10 November 1984 (aged 33)",125,3,"Egypt Al Ahly"],
+        [8,"Midfielder","Tarek Hamed","24 October 1988 (aged 29)",20,0,"Egypt Zamalek"],
+        [9,"Forward","Marwan Mohsen","26 February 1989 (aged 29)",23,4,"Egypt Al Ahly"],
+        [10,"Forward","Mohamed Salah","15 June 1992 (aged 25)",57,33,"England Liverpool"],
+        [11,"Forward","Kahraba","13 April 1994 (aged 24)",18,3,"Saudi Arabia Al-Ittihad"],
+        [12,"Defender","Ayman Ashraf","9 April 1991 (aged 27)",4,0,"Egypt Al Ahly"],
+        [13,"Defender","Mohamed Abdel-Shafy","1 July 1985 (aged 32)",50,1,"Saudi Arabia Al-Fateh"],
+        [14,"Forward","Ramadan Sobhi","23 January 1997 (aged 21)",22,1,"England Stoke City"],
+        [15,"Defender","Mahmoud Hamdy","1 June 1995 (aged 23)",0,0,"Egypt Zamalek"],
+        [16,"Goalkeeper","Sherif Ekramy","10 July 1983 (aged 34)",22,0,"Egypt Al Ahly"],
+        [17,"Midfielder","Mohamed Elneny","11 July 1992 (aged 25)",60,5,"England Arsenal"],
+        [18,"Forward","Shikabala","5 March 1986 (aged 32)",29,2,"Saudi Arabia Al-Raed"],
+        [19,"Midfielder","Abdallah Said","13 July 1985 (aged 32)",35,6,"Finland KuPS"],
+        [20,"Defender","Saad Samir","1 April 1989 (aged 29)",11,0,"Egypt Al Ahly"],
+        [21,"Midfielder","Trézéguet","1 October 1994 (aged 23)",23,2,"Turkey Kasımpaşa"],
+        [22,"Forward","Amr Warda","17 September 1993 (aged 24)",15,0,"Greece Atromitos"],
+        [23,"Goalkeeper","Mohamed El-Shenawy","18 December 1988 (aged 29)",2,0,"Egypt Al Ahly"]
+      ],
+      "name": "Egypt",
+      "fifaCode": "EGY",
+      "iso2": "eg",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/900px-Flag_of_Egypt.png",
+      "emoji": "flag-eg",
+      "emojiString": "🇪🇬"
+    },
+    {
+      "id": 4,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Óscar Tabárez",
+      "captain":"Diego Godin",
+      "squad":[
+        [1,"Goalkeeper","Fernando Muslera","16 June 1986 (aged 31)",96,0,"Turkey Galatasaray"],
+        [2,"Defender","José Giménez","20 January 1995 (aged 23)",41,4,"Spain Atlético Madrid"],
+        [3,"Defender","Diego Godín (captain)","16 February 1986 (aged 32)",115,8,"Spain Atlético Madrid"],
+        [4,"Defender","Guillermo Varela","24 March 1993 (aged 25)",3,0,"Uruguay Peñarol"],
+        [5,"Midfielder","Carlos Sánchez","2 December 1984 (aged 33)",35,1,"Mexico Monterrey"],
+        [6,"Midfielder","Rodrigo Bentancur","25 June 1997 (aged 20)",6,0,"Italy Juventus"],
+        [7,"Midfielder","Cristian Rodríguez","30 September 1985 (aged 32)",104,11,"Uruguay Peñarol"],
+        [8,"Midfielder","Nahitan Nández","28 December 1995 (aged 22)",11,0,"Argentina Boca Juniors"],
+        [9,"Forward","Luis Suárez","24 January 1987 (aged 31)",97,50,"Spain Barcelona"],
+        [10,"Forward","Giorgian De Arrascaeta","1 June 1994 (aged 24)",13,1,"Brazil Cruzeiro"],
+        [11,"Forward","Cristhian Stuani","12 October 1986 (aged 31)",40,5,"Spain Girona"],
+        [12,"Goalkeeper","Martín Campaña","29 May 1989 (aged 29)",1,0,"Argentina Independiente"],
+        [13,"Defender","Gastón Silva","5 March 1994 (aged 24)",17,0,"Argentina Independiente"],
+        [14,"Midfielder","Lucas Torreira","11 February 1996 (aged 22)",2,0,"Italy Sampdoria"],
+        [15,"Midfielder","Matías Vecino","24 August 1991 (aged 26)",21,1,"Italy Inter Milan"],
+        [16,"Defender","Maxi Pereira","8 June 1984 (aged 34)",124,3,"Portugal Porto"],
+        [17,"Midfielder","Diego Laxalt","7 February 1993 (aged 25)",5,0,"Italy Genoa"],
+        [18,"Forward","Maxi Gómez","14 August 1996 (aged 21)",4,0,"Spain Celta Vigo"],
+        [19,"Defender","Sebastián Coates","7 October 1990 (aged 27)",30,1,"Portugal Sporting CP"],
+        [20,"Forward","Jonathan Urretaviscaya","19 March 1990 (aged 28)",4,0,"Mexico Monterrey"],
+        [21,"Forward","Edinson Cavani","14 February 1987 (aged 31)",100,42,"France Paris Saint-Germain"],
+        [22,"Defender","Martín Cáceres","7 April 1987 (aged 31)",75,4,"Italy Lazio"],
+        [23,"Goalkeeper","Martín Silva","25 March 1983 (aged 35)",11,0,"Brazil Vasco da Gama"]
+      ],
+      "name": "Uruguay",
+      "fifaCode": "URU",
+      "iso2": "uy",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/900px-Flag_of_Uruguay.png",
+      "emoji": "flag-uy",
+      "emojiString": "🇺🇾"
+    },
+    {
+      "id": 5,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":0,
+        "draw":1,
+        "goalDifference":0,
+        "points":1
+
+      },
+      "coach":"Fernando Santos",
+      "captain":"Cristiano Ronaldo",
+      "squad":[
+        [1,"Goalkeeper","Rui Patrício","15 February 1988 (aged 30)",68,0,"Portugal Sporting CP"],
+        [2,"Defender","Bruno Alves","27 November 1981 (aged 36)",95,11,"Scotland Rangers"],
+        [3,"Defender","Pepe","26 February 1983 (aged 35)",94,5,"Turkey Beşiktaş"],
+        [4,"Midfielder","Manuel Fernandes","5 February 1986 (aged 32)",14,3,"Russia Lokomotiv Moscow"],
+        [5,"Defender","Raphaël Guerreiro","22 December 1993 (aged 24)",23,2,"Germany Borussia Dortmund"],
+        [6,"Defender","José Fonte","22 December 1983 (aged 34)",30,0,"China Dalian Yifang"],
+        [7,"Forward","Cristiano Ronaldo","5 February 1985 (aged 33)",149,81,"Spain Real Madrid"],
+        [8,"Midfielder","João Moutinho","8 September 1986 (aged 31)",109,7,"France Monaco"],
+        [9,"Forward","André Silva","6 November 1995 (aged 22)",22,12,"Italy Milan"],
+        [10,"Midfielder","João Mário","19 January 1993 (aged 25)",35,2,"England West Ham United"],
+        [11,"Midfielder","Bernardo Silva","10 August 1994 (aged 23)",24,2,"England Manchester City"],
+        [12,"Goalkeeper","Anthony Lopes","1 October 1990 (aged 27)",7,0,"France Lyon"],
+        [13,"Defender","Rúben Dias","14 May 1997 (aged 21)",1,0,"Portugal Benfica"],
+        [14,"Midfielder","William Carvalho","7 April 1992 (aged 26)",42,2,"Portugal Sporting CP"],
+        [15,"Defender","Ricardo Pereira","6 October 1993 (aged 24)",4,0,"Portugal Porto"],
+        [16,"Midfielder","Bruno Fernandes","8 September 1994 (aged 23)",5,0,"Portugal Sporting CP"],
+        [17,"Forward","Gonçalo Guedes","29 November 1996 (aged 21)",9,1,"Spain Valencia"],
+        [18,"Forward","Gelson Martins","11 May 1995 (aged 23)",18,0,"Portugal Sporting CP"],
+        [19,"Defender","Mário Rui","27 May 1991 (aged 27)",3,0,"Italy Napoli"],
+        [20,"Forward","Ricardo Quaresma","26 September 1983 (aged 34)",76,9,"Turkey Beşiktaş"],
+        [21,"Defender","Cédric","31 August 1991 (aged 26)",28,1,"England Southampton"],
+        [22,"Goalkeeper","Beto","1 May 1982 (aged 36)",14,0,"Turkey Göztepe"],
+        [23,"Midfielder","Adrien Silva","15 March 1989 (aged 29)",22,1,"England Leicester City"]
+      ],
+      "name": "Portugal",
+      "fifaCode": "POR",
+      "iso2": "pt",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/600px-Flag_of_Portugal.png",
+      "emoji": "flag-pt",
+      "emojiString": "🇵🇹"
+    },
+    {
+      "id": 6,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":0,
+        "draw":1,
+        "goalDifference":0,
+        "points":1
+
+      },
+      "coach":"Julen Lopetegui",
+      "captain":"Sergio Ramos",
+      "squad":[
+        [1,"Goalkeeper","David de Gea","7 November 1990 (aged 27)",28,0,"England Manchester United"],
+        [2,"Defender","Dani Carvajal","11 January 1992 (aged 26)",15,0,"Spain Real Madrid"],
+        [3,"Defender","Gerard Piqué","2 February 1987 (aged 31)",97,5,"Spain Barcelona"],
+        [4,"Defender","Nacho","18 January 1990 (aged 28)",16,0,"Spain Real Madrid"],
+        [5,"Midfielder","Sergio Busquets","16 July 1988 (aged 29)",102,2,"Spain Barcelona"],
+        [6,"Midfielder","Andrés Iniesta","11 May 1984 (aged 34)",126,14,"Spain Barcelona"],
+        [7,"Midfielder","Saúl","21 November 1994 (aged 23)",10,0,"Spain Atlético Madrid"],
+        [8,"Midfielder","Koke","8 January 1992 (aged 26)",39,0,"Spain Atlético Madrid"],
+        [9,"Forward","Rodrigo","6 March 1991 (aged 27)",5,2,"Spain Valencia"],
+        [10,"Midfielder","Thiago","11 April 1991 (aged 27)",28,2,"Germany Bayern Munich"],
+        [11,"Forward","Lucas Vázquez","1 July 1991 (aged 26)",6,0,"Spain Real Madrid"],
+        [12,"Defender","Álvaro Odriozola","14 December 1995 (aged 22)",3,1,"Spain Real Sociedad"],
+        [13,"Goalkeeper","Kepa Arrizabalaga","3 October 1994 (aged 23)",1,0,"Spain Athletic Bilbao"],
+        [14,"Defender","César Azpilicueta","28 August 1989 (aged 28)",22,0,"England Chelsea"],
+        [15,"Defender","Sergio Ramos","30 March 1986 (aged 32)",151,13,"Spain Real Madrid"],
+        [16,"Defender","Nacho Monreal","26 February 1986 (aged 32)",22,1,"England Arsenal"],
+        [17,"Forward","Iago Aspas","1 August 1987 (aged 30)",9,4,"Spain Celta Vigo"],
+        [18,"Defender","Jordi Alba","21 March 1989 (aged 29)",61,8,"Spain Barcelona"],
+        [19,"Forward","Diego Costa","7 October 1988 (aged 29)",19,7,"Spain Atlético Madrid"],
+        [20,"Midfielder","Marco Asensio","21 January 1996 (aged 22)",11,0,"Spain Real Madrid"],
+        [21,"Forward","David Silva","8 January 1986 (aged 32)",120,35,"England Manchester City"],
+        [22,"Midfielder","Isco","21 April 1992 (aged 26)",27,10,"Spain Real Madrid"],
+        [23,"Goalkeeper","Pepe Reina","31 August 1982 (aged 35)",36,0,"Italy Napoli"]
+      ],
+      "name": "Spain",
+      "fifaCode": "ESP",
+      "iso2": "es",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/750px-Flag_of_Spain.png",
+      "emoji": "flag-es",
+      "emojiString": "🇪🇸"
+    },
+    {
+      "id": 7,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Hervé Renard",
+      "captain":"Medhi Benatia",
+      "squad":[
+        [1,"Goalkeeper","Yassine Bounou","5 April 1991 (aged 27)",11,0,"Spain Girona"],
+        [2,"Defender","Achraf Hakimi","4 November 1998 (aged 19)",9,1,"Spain Real Madrid"],
+        [3,"Defender","Hamza Mendyl","21 October 1997 (aged 20)",13,0,"France Lille"],
+        [4,"Defender","Manuel da Costa","6 May 1986 (aged 32)",27,1,"Turkey İstanbul Başakşehir"],
+        [5,"Defender","Medhi Benatia","17 April 1987 (aged 31)",56,2,"Italy Juventus"],
+        [6,"Defender","Romain Saïss","26 March 1990 (aged 28)",23,1,"England Wolverhampton Wanderers"],
+        [7,"Midfielder","Hakim Ziyech","19 March 1993 (aged 25)",17,8,"Netherlands Ajax"],
+        [8,"Midfielder","Karim El Ahmadi","27 January 1985 (aged 33)",50,1,"Netherlands Feyenoord"],
+        [9,"Forward","Ayoub El Kaabi","25 June 1993 (aged 24)",9,11,"Morocco RS Berkane"],
+        [10,"Midfielder","Younès Belhanda","25 February 1990 (aged 28)",46,4,"Turkey Galatasaray"],
+        [11,"Midfielder","Fayçal Fajr","1 August 1988 (aged 29)",23,2,"Spain Getafe"],
+        [12,"Goalkeeper","Munir Mohamedi","10 May 1989 (aged 29)",26,0,"Spain Numancia"],
+        [13,"Forward","Khalid Boutaïb","24 April 1987 (aged 31)",17,7,"Turkey Yeni Malatyaspor"],
+        [14,"Midfielder","Mbark Boussoufa","15 August 1984 (aged 33)",58,7,"United Arab Emirates Al-Jazira"],
+        [15,"Midfielder","Youssef Aït Bennasser","7 July 1996 (aged 21)",13,0,"France Caen"],
+        [16,"Midfielder","Nordin Amrabat","31 March 1987 (aged 31)",43,4,"Spain Leganés"],
+        [17,"Defender","Nabil Dirar","25 February 1986 (aged 32)",34,3,"Turkey Fenerbahçe"],
+        [18,"Midfielder","Amine Harit","18 June 1997 (aged 20)",5,0,"Germany Schalke 04"],
+        [19,"Forward","Youssef En-Nesyri","1 June 1997 (aged 21)",15,1,"Spain Málaga"],
+        [20,"Forward","Aziz Bouhaddouz","30 March 1987 (aged 31)",14,3,"Germany FC St. Pauli"],
+        [21,"Midfielder","Sofyan Amrabat","21 August 1996 (aged 21)",5,0,"Netherlands Feyenoord"],
+        [22,"Goalkeeper","Ahmed Reda Tagnaouti","5 April 1996 (aged 22)",2,0,"Morocco IR Tanger"],
+        [23,"Midfielder","Mehdi Carcela","1 July 1989 (aged 28)",20,1,"Belgium Standard Liège"]
+      ],
+      "name": "Morocco",
+      "fifaCode": "MAR",
+      "iso2": "ma",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/900px-Flag_of_Morocco.png",
+      "emoji": "flag-ma",
+      "emojiString": "🇲🇦"
+    },
+    {
+      "id": 8,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Carlos Queiroz",
+      "captain":"Masoud Shojaei",
+      "squad":[
+        [1,"Goalkeeper","Alireza Beiranvand","21 September 1992 (aged 25)",21,0,"Iran Persepolis"],
+        [2,"Midfielder","Mehdi Torabi","10 September 1994 (aged 23)",16,4,"Iran Saipa"],
+        [3,"Defender","Ehsan Hajsafi","25 February 1990 (aged 28)",93,6,"Greece Olympiacos"],
+        [4,"Defender","Rouzbeh Cheshmi","24 July 1993 (aged 24)",9,1,"Iran Esteghlal"],
+        [5,"Defender","Milad Mohammadi","29 September 1993 (aged 24)",18,0,"Russia Akhmat Grozny"],
+        [6,"Midfielder","Saeid Ezatolahi","1 October 1996 (aged 21)",25,1,"Russia Amkar Perm"],
+        [7,"Midfielder","Masoud Shojaei","9 June 1984 (aged 34)",73,8,"Greece AEK Athens"],
+        [8,"Defender","Morteza Pouraliganji","19 April 1992 (aged 26)",26,2,"Qatar Al-Sadd"],
+        [9,"Midfielder","Omid Ebrahimi","16 September 1987 (aged 30)",29,0,"Iran Esteghlal"],
+        [10,"Forward","Karim Ansarifard","3 April 1990 (aged 28)",63,16,"Greece Olympiacos"],
+        [11,"Midfielder","Vahid Amiri","2 April 1988 (aged 30)",35,1,"Iran Persepolis"],
+        [12,"Goalkeeper","Mohammad Rashid Mazaheri","18 May 1989 (aged 29)",3,0,"Iran Zob Ahan Esfahan"],
+        [13,"Defender","Mohammad Reza Khanzadeh","11 May 1991 (aged 27)",11,1,"Iran Padideh"],
+        [14,"Forward","Saman Ghoddos","6 September 1993 (aged 24)",7,1,"Sweden Östersund"],
+        [15,"Defender","Pejman Montazeri","6 September 1983 (aged 34)",46,1,"Iran Esteghlal"],
+        [16,"Forward","Reza Ghoochannejhad","20 September 1987 (aged 30)",42,17,"Netherlands Heerenveen"],
+        [17,"Forward","Mehdi Taremi","18 July 1992 (aged 25)",25,11,"Qatar Al-Gharafa"],
+        [18,"Forward","Alireza Jahanbakhsh","11 August 1993 (aged 24)",37,4,"Netherlands AZ"],
+        [19,"Defender","Majid Hosseini","20 June 1996 (aged 21)",1,0,"Iran Esteghlal"],
+        [20,"Forward","Sardar Azmoun","1 January 1995 (aged 23)",32,23,"Russia Rubin Kazan"],
+        [21,"Forward","Ashkan Dejagah","5 July 1986 (aged 31)",45,9,"England Nottingham Forest"],
+        [22,"Goalkeeper","Amir Abedzadeh","26 April 1993 (aged 25)",1,0,"Portugal Marítimo"],
+        [23,"Defender","Ramin Rezaeian","21 March 1990 (aged 28)",27,2,"Belgium Oostende"]
+      ],
+      "name": "Iran",
+      "fifaCode": "IRN",
+      "iso2": "ir",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/630px-Flag_of_Iran.png",
+      "emoji": "flag-ir",
+      "emojiString": "🇮🇷"
+    },
+    {
+      "id": 9,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Didier Deschamps",
+      "captain":"Hugo Lloris",
+      "squad":[
+        [1,"Goalkeeper","Hugo Lloris","26 December 1986 (aged 31)",97,0,"England Tottenham Hotspur"],
+        [2,"Defender","Benjamin Pavard","28 March 1996 (aged 22)",5,0,"Germany VfB Stuttgart"],
+        [3,"Defender","Presnel Kimpembe","13 August 1995 (aged 22)",2,0,"France Paris Saint-Germain"],
+        [4,"Defender","Raphaël Varane","25 April 1993 (aged 25)",41,2,"Spain Real Madrid"],
+        [5,"Defender","Samuel Umtiti","14 November 1993 (aged 24)",18,2,"Spain Barcelona"],
+        [6,"Midfielder","Paul Pogba","15 March 1993 (aged 25)",53,9,"England Manchester United"],
+        [7,"Forward","Antoine Griezmann","21 March 1991 (aged 27)",53,20,"Spain Atlético Madrid"],
+        [8,"Forward","Thomas Lemar","12 November 1995 (aged 22)",11,3,"France Monaco"],
+        [9,"Forward","Olivier Giroud","30 September 1986 (aged 31)",73,31,"England Chelsea"],
+        [10,"Forward","Kylian Mbappé","20 December 1998 (aged 19)",14,3,"France Paris Saint-Germain"],
+        [11,"Forward","Ousmane Dembélé","15 May 1997 (aged 21)",11,2,"Spain Barcelona"],
+        [12,"Midfielder","Corentin Tolisso","3 August 1994 (aged 23)",8,0,"Germany Bayern Munich"],
+        [13,"Midfielder","N'Golo Kanté","29 March 1991 (aged 27)",23,1,"England Chelsea"],
+        [14,"Midfielder","Blaise Matuidi","9 April 1987 (aged 31)",66,9,"Italy Juventus"],
+        [15,"Midfielder","Steven Nzonzi","15 December 1988 (aged 29)",4,0,"Spain Sevilla"],
+        [16,"Goalkeeper","Steve Mandanda","28 March 1985 (aged 33)",27,0,"France Marseille"],
+        [17,"Defender","Adil Rami","27 December 1985 (aged 32)",35,1,"France Marseille"],
+        [18,"Forward","Nabil Fekir","18 July 1993 (aged 24)",11,2,"France Lyon"],
+        [19,"Defender","Djibril Sidibé","29 July 1992 (aged 25)",16,1,"France Monaco"],
+        [20,"Forward","Florian Thauvin","26 January 1993 (aged 25)",4,0,"France Marseille"],
+        [21,"Defender","Lucas Hernández","14 February 1996 (aged 22)",4,0,"Spain Atlético Madrid"],
+        [22,"Defender","Benjamin Mendy","17 July 1994 (aged 23)",6,0,"England Manchester City"],
+        [23,"Goalkeeper","Alphonse Areola","27 February 1993 (aged 25)",0,0,"France Paris Saint-Germain"]
+      ],
+      "name": "France",
+      "fifaCode": "FRA",
+      "iso2": "fr",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/900px-Flag_of_France.png",
+      "emoji": "flag-fr",
+      "emojiString": "🇫🇷"
+    },
+    {
+      "id": 10,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Bert van Marwijk",
+      "captain":"Mile Jedinak",
+      "squad":[
+        [1,"Goalkeeper","Mathew Ryan","8 April 1992 (aged 26)",43,0,"England Brighton & Hove Albion"],
+        [2,"Defender","Milos Degenek","28 April 1994 (aged 24)",18,0,"Japan Yokohama F. Marinos"],
+        [3,"Defender","James Meredith","5 April 1988 (aged 30)",2,0,"England Millwall"],
+        [4,"Forward","Tim Cahill","6 December 1979 (aged 38)",105,50,"England Millwall"],
+        [5,"Defender","Mark Milligan","4 August 1985 (aged 32)",70,6,"Saudi Arabia Al-Ahli"],
+        [6,"Defender","Matthew Jurman","8 December 1989 (aged 28)",4,0,"South Korea Suwon Samsung Bluewings"],
+        [7,"Forward","Mathew Leckie","4 February 1991 (aged 27)",52,8,"Germany Hertha BSC"],
+        [8,"Midfielder","Massimo Luongo","25 September 1992 (aged 25)",35,5,"England Queens Park Rangers"],
+        [9,"Forward","Tomi Juric","22 July 1991 (aged 26)",34,8,"Switzerland Luzern"],
+        [10,"Forward","Robbie Kruse","5 October 1988 (aged 29)",63,5,"Germany VfL Bochum"],
+        [11,"Forward","Andrew Nabbout","17 December 1992 (aged 25)",3,1,"Japan Urawa Red Diamonds"],
+        [12,"Goalkeeper","Brad Jones","19 March 1982 (aged 36)",5,0,"Netherlands Feyenoord"],
+        [13,"Midfielder","Aaron Mooy","15 September 1990 (aged 27)",33,5,"England Huddersfield Town"],
+        [14,"Forward","Jamie Maclaren","29 July 1993 (aged 24)",6,0,"Scotland Hibernian"],
+        [15,"Midfielder","Mile Jedinak","3 August 1984 (aged 33)",75,18,"England Aston Villa"],
+        [16,"Defender","Aziz Behich","16 December 1990 (aged 27)",22,2,"Turkey Bursaspor"],
+        [17,"Forward","Daniel Arzani","4 January 1999 (aged 19)",1,0,"Australia Melbourne City"],
+        [18,"Goalkeeper","Danny Vukovic","27 March 1985 (aged 33)",1,0,"Belgium Genk"],
+        [19,"Defender","Josh Risdon","27 July 1992 (aged 25)",7,0,"Australia Western Sydney Wanderers"],
+        [20,"Defender","Trent Sainsbury","5 January 1992 (aged 26)",34,3,"Switzerland Grasshoppers"],
+        [21,"Forward","Dimitri Petratos","10 November 1992 (aged 25)",2,0,"Australia Newcastle Jets"],
+        [22,"Midfielder","Jackson Irvine","7 March 1993 (aged 25)",18,2,"England Hull City"],
+        [23,"Midfielder","Tom Rogic","16 December 1992 (aged 25)",36,7,"Scotland Celtic"]
+      ],
+      "name": "Australia",
+      "fifaCode": "AUS",
+      "iso2": "au",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1280px-Flag_of_Australia_%28converted%29.png",
+      "emoji": "flag-au",
+      "emojiString": "🇦🇺"
+    },
+    {
+      "id": 11,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Ricardo Gareca",
+      "captain":"Paolo Guerrero",
+      "squad":[
+        [1,"Goalkeeper","Pedro Gallese","23 February 1990 (aged 28)",37,0,"Mexico Veracruz"],
+        [2,"Defender","Alberto Rodríguez","31 March 1984 (aged 34)",58,0,"Colombia Atlético Junior"],
+        [3,"Defender","Aldo Corzo","20 May 1989 (aged 29)",25,0,"Peru Universitario"],
+        [4,"Defender","Anderson Santamaría","10 January 1992 (aged 26)",3,0,"Mexico Puebla"],
+        [5,"Defender","Miguel Araujo","24 October 1994 (aged 23)",7,0,"Peru Alianza Lima"],
+        [6,"Defender","Miguel Trauco","25 August 1992 (aged 25)",26,0,"Brazil Flamengo"],
+        [7,"Midfielder","Paolo Hurtado","27 July 1990 (aged 27)",31,3,"Portugal Vitória de Guimarães"],
+        [8,"Midfielder","Christian Cueva","23 November 1991 (aged 26)",43,8,"Brazil São Paulo"],
+        [9,"Forward","Paolo Guerrero","1 January 1984 (aged 34)",87,34,"Brazil Flamengo"],
+        [10,"Forward","Jefferson Farfán","26 October 1984 (aged 33)",83,25,"Russia Lokomotiv Moscow"],
+        [11,"Forward","Raúl Ruidíaz","25 July 1990 (aged 27)",30,4,"Mexico Morelia"],
+        [12,"Goalkeeper","Carlos Cáceda","27 September 1991 (aged 26)",4,0,"Peru Deportivo Municipal"],
+        [13,"Midfielder","Renato Tapia","28 July 1995 (aged 22)",22,1,"Netherlands Feyenoord"],
+        [14,"Midfielder","Andy Polo","29 September 1994 (aged 23)",16,1,"United States Portland Timbers"],
+        [15,"Defender","Christian Ramos","4 November 1988 (aged 29)",65,3,"Mexico Veracruz"],
+        [16,"Midfielder","Wilder Cartagena","23 September 1994 (aged 23)",3,0,"Mexico Veracruz"],
+        [17,"Defender","Luis Advíncula","2 March 1990 (aged 28)",64,0,"Mexico Lobos BUAP"],
+        [18,"Forward","André Carrillo","14 June 1991 (aged 27)",44,5,"England Watford"],
+        [19,"Midfielder","Yoshimar Yotún","7 April 1990 (aged 28)",72,2,"United States Orlando City"],
+        [20,"Forward","Edison Flores","14 May 1994 (aged 24)",28,9,"Denmark AaB"],
+        [21,"Goalkeeper","José Carvallo","1 March 1986 (aged 32)",6,0,"Peru UTC"],
+        [22,"Defender","Nilson Loyola","26 October 1994 (aged 23)",3,0,"Peru Melgar"],
+        [23,"Midfielder","Pedro Aquino","13 April 1995 (aged 23)",12,0,"Mexico Lobos BUAP"]
+      ],
+      "name": "Peru",
+      "fifaCode": "PER",
+      "iso2": "pe",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/900px-Flag_of_Peru_%28state%29.png",
+      "emoji": "flag-pe",
+      "emojiString": "🇵🇪"
+    },
+    {
+      "id": 12,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Åge Hareide",
+      "captain":"Simon Kjær",
+      "squad":[
+        [1,"Goalkeeper","Kasper Schmeichel","5 November 1986 (aged 31)",34,0,"England Leicester City"],
+        [2,"Midfielder","Michael Krohn-Dehli","6 June 1983 (aged 35)",58,6,"Spain Deportivo La Coruña"],
+        [3,"Defender","Jannik Vestergaard","3 August 1992 (aged 25)",16,1,"Germany Borussia Mönchengladbach"],
+        [4,"Defender","Simon Kjær","26 March 1989 (aged 29)",77,3,"Spain Sevilla"],
+        [5,"Defender","Jonas Knudsen","16 September 1992 (aged 25)",3,0,"England Ipswich Town"],
+        [6,"Defender","Andreas Christensen","10 April 1996 (aged 22)",15,1,"England Chelsea"],
+        [7,"Midfielder","William Kvist","24 February 1985 (aged 33)",79,2,"Denmark Copenhagen"],
+        [8,"Midfielder","Thomas Delaney","3 September 1991 (aged 26)",26,4,"Germany Werder Bremen"],
+        [9,"Forward","Nicolai Jørgensen","15 January 1991 (aged 27)",30,8,"Netherlands Feyenoord"],
+        [10,"Midfielder","Christian Eriksen","14 February 1992 (aged 26)",77,21,"England Tottenham Hotspur"],
+        [11,"Forward","Martin Braithwaite","5 June 1991 (aged 27)",19,1,"France Bordeaux"],
+        [12,"Forward","Kasper Dolberg","6 October 1997 (aged 20)",5,1,"Netherlands Ajax"],
+        [13,"Defender","Mathias Jørgensen","23 April 1990 (aged 28)",12,0,"England Huddersfield Town"],
+        [14,"Defender","Henrik Dalsgaard","27 July 1989 (aged 28)",10,0,"England Brentford"],
+        [15,"Forward","Viktor Fischer","9 June 1994 (aged 24)",18,3,"Denmark Copenhagen"],
+        [16,"Goalkeeper","Jonas Lössl","1 February 1989 (aged 29)",1,0,"England Huddersfield Town"],
+        [17,"Defender","Jens Stryger Larsen","21 February 1991 (aged 27)",12,1,"Italy Udinese"],
+        [18,"Midfielder","Lukas Lerager","12 July 1993 (aged 24)",3,0,"France Bordeaux"],
+        [19,"Midfielder","Lasse Schöne","27 May 1986 (aged 32)",35,3,"Netherlands Ajax"],
+        [20,"Forward","Yussuf Poulsen","15 June 1994 (aged 23)",27,3,"Germany RB Leipzig"],
+        [21,"Forward","Andreas Cornelius","16 March 1993 (aged 25)",18,4,"Italy Atalanta"],
+        [22,"Goalkeeper","Frederik Rønnow","4 August 1992 (aged 25)",6,0,"Denmark Brøndby"],
+        [23,"Forward","Pione Sisto","4 February 1995 (aged 23)",13,1,"Spain Celta Vigo"]
+      ],
+      "name": "Denmark",
+      "fifaCode": "DEN",
+      "iso2": "dk",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/740px-Flag_of_Denmark.png",
+      "emoji": "flag-dk",
+      "emojiString": "🇩🇰"
+    },
+    {
+      "id": 13,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":0,
+        "draw":1,
+        "goalDifference":0,
+        "points":1
+
+      },
+      "coach":"Jorge Sampaoli",
+      "captain":"Lionel Messi",
+      "squad":[
+        [1,"Goalkeeper","Nahuel Guzmán","10 February 1986 (aged 32)",6,0,"Mexico UANL"],
+        [2,"Defender","Gabriel Mercado","18 March 1987 (aged 31)",20,3,"Spain Sevilla"],
+        [3,"Defender","Nicolás Tagliafico","31 August 1992 (aged 25)",4,0,"Netherlands Ajax"],
+        [4,"Defender","Cristian Ansaldi","20 September 1986 (aged 31)",5,0,"Italy Torino"],
+        [5,"Midfielder","Lucas Biglia","30 January 1986 (aged 32)",57,1,"Italy Milan"],
+        [6,"Defender","Federico Fazio","17 March 1987 (aged 31)",9,1,"Italy Roma"],
+        [7,"Midfielder","Éver Banega","29 June 1988 (aged 29)",62,6,"Spain Sevilla"],
+        [8,"Defender","Marcos Acuña","28 October 1991 (aged 26)",10,0,"Portugal Sporting CP"],
+        [9,"Forward","Gonzalo Higuaín","10 December 1987 (aged 30)",71,31,"Italy Juventus"],
+        [10,"Forward","Lionel Messi","24 June 1987 (aged 30)",124,64,"Spain Barcelona"],
+        [11,"Midfielder","Ángel Di María","14 February 1988 (aged 30)",94,19,"France Paris Saint-Germain"],
+        [12,"Goalkeeper","Franco Armani","16 October 1986 (aged 31)",0,0,"Argentina River Plate"],
+        [13,"Midfielder","Maximiliano Meza","15 December 1992 (aged 25)",2,0,"Argentina Independiente"],
+        [14,"Defender","Javier Mascherano","8 June 1984 (aged 34)",143,3,"China Hebei China Fortune"],
+        [15,"Midfielder","Manuel Lanzini","15 February 1993 (aged 25)",4,1,"England West Ham United"],
+        [16,"Defender","Marcos Rojo","20 March 1990 (aged 28)",56,2,"England Manchester United"],
+        [17,"Defender","Nicolás Otamendi","12 February 1988 (aged 30)",54,4,"England Manchester City"],
+        [18,"Defender","Eduardo Salvio","13 July 1990 (aged 27)",9,0,"Portugal Benfica"],
+        [19,"Forward","Sergio Agüero","2 June 1988 (aged 30)",85,37,"England Manchester City"],
+        [20,"Midfielder","Giovani Lo Celso","9 April 1996 (aged 22)",5,0,"France Paris Saint-Germain"],
+        [21,"Forward","Paulo Dybala","15 November 1993 (aged 24)",12,0,"Italy Juventus"],
+        [22,"Midfielder","Cristian Pavón","21 January 1996 (aged 22)",5,0,"Argentina Boca Juniors"],
+        [23,"Goalkeeper","Willy Caballero","28 September 1981 (aged 36)",3,0,"England Chelsea"]
+      ],
+      "name": "Argentina",
+      "fifaCode": "ARG",
+      "iso2": "ar",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/800px-Flag_of_Argentina.png",
+      "emoji": "flag-ar",
+      "emojiString": "🇦🇷"
+    },
+    {
+      "id": 14,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":0,
+        "draw":1,
+        "goalDifference":0,
+        "points":1
+
+      },
+      "coach":"Heimir Hallgrímsson",
+      "captain":"Aron Gunnarsson",
+      "squad":[
+        [1,"Goalkeeper","Hannes Þór Halldórsson","27 April 1984 (aged 34)",48,0,"Denmark Randers"],
+        [2,"Defender","Birkir Már Sævarsson","11 November 1984 (aged 33)",79,1,"Iceland Valur"],
+        [3,"Midfielder","Samúel Friðjónsson","22 February 1996 (aged 22)",4,0,"Norway Vålerenga"],
+        [4,"Midfielder","Albert Guðmundsson","15 June 1997 (aged 20)",5,3,"Netherlands PSV Eindhoven"],
+        [5,"Defender","Sverrir Ingi Ingason","5 August 1993 (aged 24)",19,3,"Russia Rostov"],
+        [6,"Defender","Ragnar Sigurðsson","19 June 1986 (aged 31)",76,3,"Russia Rostov"],
+        [7,"Midfielder","Jóhann Berg Guðmundsson","27 October 1990 (aged 27)",66,7,"England Burnley"],
+        [8,"Midfielder","Birkir Bjarnason","27 May 1988 (aged 30)",66,9,"England Aston Villa"],
+        [9,"Forward","Björn Bergmann Sigurðarson","26 February 1991 (aged 27)",11,1,"Russia Rostov"],
+        [10,"Midfielder","Gylfi Sigurðsson","8 September 1989 (aged 28)",56,19,"England Everton"],
+        [11,"Forward","Alfreð Finnbogason","1 February 1989 (aged 29)",46,12,"Germany FC Augsburg"],
+        [12,"Goalkeeper","Frederik Schram","19 January 1995 (aged 23)",4,0,"Denmark Roskilde"],
+        [13,"Goalkeeper","Rúnar Alex Rúnarsson","18 February 1995 (aged 23)",3,0,"Denmark Nordsjælland"],
+        [14,"Defender","Kári Árnason","13 October 1982 (aged 35)",66,4,"Scotland Aberdeen"],
+        [15,"Defender","Hólmar Örn Eyjólfsson","6 August 1990 (aged 27)",9,1,"Bulgaria Levski Sofia"],
+        [16,"Midfielder","Ólafur Ingi Skúlason","1 April 1983 (aged 35)",35,1,"Turkey Kardemir Karabükspor"],
+        [17,"Midfielder","Aron Gunnarsson","22 April 1989 (aged 29)",77,2,"Wales Cardiff City"],
+        [18,"Defender","Hörður Björgvin Magnússon","11 February 1993 (aged 25)",16,2,"England Bristol City"],
+        [19,"Midfielder","Rúrik Gíslason","25 February 1988 (aged 30)",46,3,"Germany SV Sandhausen"],
+        [20,"Midfielder","Emil Hallfreðsson","29 June 1984 (aged 33)",63,1,"Italy Udinese"],
+        [21,"Midfielder","Arnór Ingvi Traustason","30 April 1993 (aged 25)",18,5,"Sweden Malmö"],
+        [22,"Forward","Jón Daði Böðvarsson","25 May 1992 (aged 26)",37,2,"England Reading"],
+        [23,"Defender","Ari Freyr Skúlason","14 May 1987 (aged 31)",55,0,"Belgium Lokeren"]
+      ],
+      "name": "Iceland",
+      "fifaCode": "ISL",
+      "iso2": "is",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/800px-Flag_of_Iceland.png",
+      "emoji": "flag-is",
+      "emojiString": "🇮🇸"
+    },
+    {
+      "id": 15,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":2,
+        "points":3
+
+      },
+      "coach":"Zlatko Dalić",
+      "captain":"Luka Modrić",
+      "squad":[
+        [1,"Goalkeeper","Dominik Livaković","9 January 1995 (aged 23)",1,0,"Croatia Dinamo Zagreb"],
+        [2,"Defender","Šime Vrsaljko","10 January 1992 (aged 26)",35,0,"Spain Atlético Madrid"],
+        [3,"Defender","Ivan Strinić","17 July 1987 (aged 30)",42,0,"Italy Sampdoria"],
+        [4,"Forward","Ivan Perišić","2 February 1989 (aged 29)",65,17,"Italy Inter Milan"],
+        [5,"Defender","Vedran Ćorluka","5 February 1986 (aged 32)",98,4,"Russia Lokomotiv Moscow"],
+        [6,"Defender","Dejan Lovren","5 July 1989 (aged 28)",38,2,"England Liverpool"],
+        [7,"Midfielder","Ivan Rakitić","10 March 1988 (aged 30)",91,14,"Spain Barcelona"],
+        [8,"Midfielder","Mateo Kovačić","6 May 1994 (aged 24)",40,1,"Spain Real Madrid"],
+        [9,"Forward","Andrej Kramarić","19 June 1991 (aged 26)",30,8,"Germany 1899 Hoffenheim"],
+        [10,"Midfielder","Luka Modrić","9 September 1985 (aged 32)",105,12,"Spain Real Madrid"],
+        [11,"Midfielder","Marcelo Brozović","16 November 1992 (aged 25)",34,6,"Italy Inter Milan"],
+        [12,"Goalkeeper","Lovre Kalinić","3 April 1990 (aged 28)",10,0,"Belgium Gent"],
+        [13,"Defender","Tin Jedvaj","28 November 1995 (aged 22)",11,0,"Germany Bayer Leverkusen"],
+        [14,"Midfielder","Filip Bradarić","11 January 1992 (aged 26)",4,0,"Croatia Rijeka"],
+        [15,"Defender","Duje Ćaleta-Car","17 September 1996 (aged 21)",1,0,"Austria Red Bull Salzburg"],
+        [16,"Forward","Nikola Kalinić","5 January 1988 (aged 30)",41,15,"Italy Milan"],
+        [17,"Forward","Mario Mandžukić","21 May 1986 (aged 32)",82,30,"Italy Juventus"],
+        [18,"Forward","Ante Rebić","21 September 1993 (aged 24)",15,1,"Germany Eintracht Frankfurt"],
+        [19,"Midfielder","Milan Badelj","25 February 1989 (aged 29)",37,1,"Italy Fiorentina"],
+        [20,"Forward","Marko Pjaca","6 May 1995 (aged 23)",16,1,"Germany Schalke 04"],
+        [21,"Defender","Domagoj Vida","29 April 1989 (aged 29)",58,2,"Turkey Beşiktaş"],
+        [22,"Defender","Josip Pivarić","30 January 1989 (aged 29)",19,0,"Ukraine Dynamo Kyiv"],
+        [23,"Goalkeeper","Danijel Subašić","27 October 1984 (aged 33)",37,0,"France Monaco"]
+      ],
+      "name": "Croatia",
+      "fifaCode": "CRO",
+      "iso2": "hr",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/800px-Flag_of_Croatia.png",
+      "emoji": "flag-hr",
+      "emojiString": "🇭🇷"
+    },
+    {
+      "id": 16,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-2,
+        "points":0
+
+      },
+      "coach":"Gernot Rohr",
+      "captain":"John Obi Mikel",
+      "squad":[
+        [1,"Goalkeeper","Ikechukwu Ezenwa","16 October 1988 (aged 29)",24,0,"Nigeria Enyimba"],
+        [2,"Defender","Brian Idowu","18 May 1992 (aged 26)",4,1,"Russia Amkar Perm"],
+        [3,"Defender","Elderson Echiéjilé","20 January 1988 (aged 30)",61,3,"Belgium Cercle Brugge"],
+        [4,"Midfielder","Wilfred Ndidi","16 December 1996 (aged 21)",16,0,"England Leicester City"],
+        [5,"Defender","William Troost-Ekong","1 September 1993 (aged 24)",21,1,"Turkey Bursaspor"],
+        [6,"Defender","Leon Balogun","28 June 1988 (aged 29)",18,0,"Germany Mainz 05"],
+        [7,"Forward","Ahmed Musa","14 October 1992 (aged 25)",71,13,"Russia CSKA Moscow"],
+        [8,"Midfielder","Oghenekaro Etebo","9 November 1995 (aged 22)",14,1,"Spain Las Palmas"],
+        [9,"Forward","Odion Ighalo","16 June 1989 (aged 28)",18,4,"China Changchun Yatai"],
+        [10,"Midfielder","John Obi Mikel","22 April 1987 (aged 31)",84,6,"China Tianjin TEDA"],
+        [11,"Forward","Victor Moses","12 December 1990 (aged 27)",33,11,"England Chelsea"],
+        [12,"Defender","Shehu Abdullahi","12 March 1993 (aged 25)",24,0,"Turkey Bursaspor"],
+        [13,"Forward","Simeon Nwankwo","7 May 1992 (aged 26)",1,0,"Italy Crotone"],
+        [14,"Forward","Kelechi Iheanacho","10 March 1996 (aged 22)",17,8,"England Leicester City"],
+        [15,"Midfielder","Joel Obi","22 May 1991 (aged 27)",17,0,"Italy Torino"],
+        [16,"Goalkeeper","Daniel Akpeyi","8 March 1986 (aged 32)",7,0,"South Africa Chippa United"],
+        [17,"Midfielder","Ogenyi Onazi","25 December 1992 (aged 25)",52,1,"Turkey Trabzonspor"],
+        [18,"Forward","Alex Iwobi","3 May 1996 (aged 22)",18,5,"England Arsenal"],
+        [19,"Midfielder","John Ogu","20 April 1988 (aged 30)",19,2,"Israel Hapoel Be'er Sheva"],
+        [20,"Defender","Chidozie Awaziem","1 January 1997 (aged 21)",4,0,"France Nantes"],
+        [21,"Defender","Tyronne Ebuehi","16 December 1995 (aged 22)",6,0,"Netherlands ADO Den Haag"],
+        [22,"Defender","Kenneth Omeruo","17 October 1993 (aged 24)",39,0,"Turkey Kasımpaşa"],
+        [23,"Goalkeeper","Francis Uzoho","28 October 1998 (aged 19)",5,0,"Spain Deportivo La Coruña"]
+      ],
+      "name": "Nigeria",
+      "fifaCode": "NGA",
+      "iso2": "ng",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/800px-Flag_of_Nigeria.png",
+      "emoji": "flag-ng",
+      "emojiString": "🇳🇬"
+    },
+    {
+      "id": 17,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":0,
+        "draw":1,
+        "goalDifference":0,
+        "points":1
+
+      },
+      "coach":"Tite",
+      "captain":"Thiago Silva",
+      "squad":[
+        [1,"Goalkeeper","Alisson","2 October 1992 (aged 25)",25,0,"Italy Roma"],
+        [2,"Defender","Thiago Silva","22 September 1984 (aged 33)",70,5,"France Paris Saint-Germain"],
+        [3,"Defender","Miranda","7 September 1984 (aged 33)",46,2,"Italy Inter Milan"],
+        [4,"Defender","Pedro Geromel","21 September 1985 (aged 32)",2,0,"Brazil Grêmio"],
+        [5,"Midfielder","Casemiro","23 February 1992 (aged 26)",23,0,"Spain Real Madrid"],
+        [6,"Defender","Filipe Luís","9 August 1985 (aged 32)",32,2,"Spain Atlético Madrid"],
+        [7,"Forward","Douglas Costa","14 September 1990 (aged 27)",24,3,"Italy Juventus"],
+        [8,"Midfielder","Renato Augusto","8 February 1988 (aged 30)",28,5,"China Beijing Sinobo Guoan"],
+        [9,"Forward","Gabriel Jesus","3 April 1997 (aged 21)",16,9,"England Manchester City"],
+        [10,"Forward","Neymar","5 February 1992 (aged 26)",84,54,"France Paris Saint-Germain"],
+        [11,"Midfielder","Philippe Coutinho","12 June 1992 (aged 26)",36,9,"Spain Barcelona"],
+        [12,"Defender","Marcelo","12 May 1988 (aged 30)",53,6,"Spain Real Madrid"],
+        [13,"Defender","Marquinhos","14 May 1994 (aged 24)",25,0,"France Paris Saint-Germain"],
+        [14,"Defender","Danilo","15 July 1991 (aged 26)",17,0,"England Manchester City"],
+        [15,"Midfielder","Paulinho","25 July 1988 (aged 29)",49,12,"Spain Barcelona"],
+        [16,"Goalkeeper","Cássio","6 June 1987 (aged 31)",1,0,"Brazil Corinthians"],
+        [17,"Midfielder","Fernandinho","4 May 1985 (aged 33)",43,2,"England Manchester City"],
+        [18,"Midfielder","Fred","5 March 1993 (aged 25)",8,0,"Ukraine Shakhtar Donetsk"],
+        [19,"Midfielder","Willian","9 August 1988 (aged 29)",56,8,"England Chelsea"],
+        [20,"Forward","Roberto Firmino","2 October 1991 (aged 26)",20,6,"England Liverpool"],
+        [21,"Forward","Taison","13 January 1988 (aged 30)",7,1,"Ukraine Shakhtar Donetsk"],
+        [22,"Defender","Fagner","11 June 1989 (aged 29)",4,0,"Brazil Corinthians"],
+        [23,"Goalkeeper","Ederson","17 August 1993 (aged 24)",1,0,"England Manchester City"]
+      ],
+      "name": "Brazil",
+      "fifaCode": "BRA",
+      "iso2": "br",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/720px-Flag_of_Brazil.png",
+      "emoji": "flag-br",
+      "emojiString": "🇧🇷"
+    },
+    {
+      "id": 18,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":0,
+        "draw":1,
+        "goalDifference":0,
+        "points":1
+
+      },
+      "coach":"Vladimir Petković",
+      "captain":"Stephan Lichtsteiner",
+      "squad":[
+        [1,"Goalkeeper","Yann Sommer","17 December 1988 (aged 29)",35,0,"Germany Borussia Mönchengladbach"],
+        [2,"Defender","Stephan Lichtsteiner","16 January 1984 (aged 34)",99,8,"Italy Juventus"],
+        [3,"Defender","François Moubandje","21 June 1990 (aged 27)",17,0,"France Toulouse"],
+        [4,"Defender","Nico Elvedi","30 September 1996 (aged 21)",5,0,"Germany Borussia Mönchengladbach"],
+        [5,"Defender","Manuel Akanji","19 July 1995 (aged 22)",6,0,"Germany Borussia Dortmund"],
+        [6,"Defender","Michael Lang","8 February 1991 (aged 27)",24,2,"Switzerland Basel"],
+        [7,"Forward","Breel Embolo","14 February 1997 (aged 21)",24,3,"Germany Schalke 04"],
+        [8,"Midfielder","Remo Freuler","15 April 1992 (aged 26)",9,0,"Italy Atalanta"],
+        [9,"Forward","Haris Seferović","22 February 1992 (aged 26)",50,11,"Portugal Benfica"],
+        [10,"Midfielder","Granit Xhaka","27 September 1992 (aged 25)",61,9,"England Arsenal"],
+        [11,"Midfielder","Valon Behrami","19 April 1985 (aged 33)",78,2,"Italy Udinese"],
+        [12,"Goalkeeper","Yvon Mvogo","6 June 1994 (aged 24)",0,0,"Germany RB Leipzig"],
+        [13,"Defender","Ricardo Rodríguez","25 August 1992 (aged 25)",52,4,"Italy Milan"],
+        [14,"Midfielder","Steven Zuber","17 August 1991 (aged 26)",11,3,"Germany 1899 Hoffenheim"],
+        [15,"Midfielder","Blerim Džemaili","12 April 1986 (aged 32)",64,9,"Italy Bologna"],
+        [16,"Midfielder","Gelson Fernandes","2 September 1986 (aged 31)",67,2,"Germany Eintracht Frankfurt"],
+        [17,"Midfielder","Denis Zakaria","20 November 1996 (aged 21)",10,0,"Germany Borussia Mönchengladbach"],
+        [18,"Forward","Mario Gavranović","24 November 1989 (aged 28)",13,5,"Croatia Dinamo Zagreb"],
+        [19,"Forward","Josip Drmić","8 August 1992 (aged 25)",28,9,"Germany Borussia Mönchengladbach"],
+        [20,"Defender","Johan Djourou","18 January 1987 (aged 31)",74,2,"Turkey Antalyaspor"],
+        [21,"Goalkeeper","Roman Bürki","14 November 1990 (aged 27)",8,0,"Germany Borussia Dortmund"],
+        [22,"Defender","Fabian Schär","20 December 1991 (aged 26)",38,7,"Spain Deportivo La Coruña"],
+        [23,"Midfielder","Xherdan Shaqiri","10 October 1991 (aged 26)",69,20,"England Stoke City"]
+      ],
+      "name": "Switzerland",
+      "fifaCode": "SUI",
+      "iso2": "ch",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/320px-Flag_of_Switzerland_%28Pantone%29.png",
+      "emoji": "flag-ch",
+      "emojiString": "🇨🇭"
+    },
+    {
+      "id": 19,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Óscar Ramírez",
+      "captain":"Bryan Ruiz",
+      "squad":[
+        [1,"Goalkeeper","Keylor Navas","15 December 1986 (aged 31)",79,0,"Spain Real Madrid"],
+        [2,"Defender","Johnny Acosta","21 July 1983 (aged 34)",68,2,"Colombia Águilas Doradas"],
+        [3,"Defender","Giancarlo González","8 February 1988 (aged 30)",68,2,"Italy Bologna"],
+        [4,"Defender","Ian Smith","6 March 1998 (aged 20)",2,0,"Sweden Norrköping"],
+        [5,"Midfielder","Celso Borges","27 May 1988 (aged 30)",111,21,"Spain Deportivo La Coruña"],
+        [6,"Defender","Óscar Duarte","3 June 1989 (aged 29)",38,2,"Spain Espanyol"],
+        [7,"Midfielder","Christian Bolaños","17 May 1984 (aged 34)",79,6,"Costa Rica Saprissa"],
+        [8,"Defender","Bryan Oviedo","18 February 1990 (aged 28)",42,1,"England Sunderland"],
+        [9,"Midfielder","Daniel Colindres","10 January 1985 (aged 33)",11,0,"Costa Rica Saprissa"],
+        [10,"Midfielder","Bryan Ruiz","18 August 1985 (aged 32)",109,23,"Portugal Sporting CP"],
+        [11,"Forward","Johan Venegas","27 November 1988 (aged 29)",45,10,"Costa Rica Saprissa"],
+        [12,"Forward","Joel Campbell","26 June 1992 (aged 25)",75,15,"Spain Real Betis"],
+        [13,"Midfielder","Rodney Wallace","17 June 1988 (aged 29)",30,4,"United States New York City FC"],
+        [14,"Midfielder","Randall Azofeifa","30 December 1984 (aged 33)",57,3,"Costa Rica Herediano"],
+        [15,"Defender","Francisco Calvo","8 July 1992 (aged 25)",36,4,"United States Minnesota United"],
+        [16,"Defender","Cristian Gamboa","24 October 1989 (aged 28)",66,3,"Scotland Celtic"],
+        [17,"Midfielder","Yeltsin Tejeda","17 March 1992 (aged 26)",49,0,"Switzerland Lausanne"],
+        [18,"Goalkeeper","Patrick Pemberton","24 April 1982 (aged 36)",39,0,"Costa Rica Alajuelense"],
+        [19,"Defender","Kendall Waston","1 January 1988 (aged 30)",25,3,"Canada Vancouver Whitecaps FC"],
+        [20,"Midfielder","David Guzmán","18 February 1990 (aged 28)",41,0,"United States Portland Timbers"],
+        [21,"Forward","Marco Ureña","5 March 1990 (aged 28)",62,15,"United States Los Angeles FC"],
+        [22,"Defender","Rónald Matarrita","9 July 1994 (aged 23)",22,2,"United States New York City FC"],
+        [23,"Goalkeeper","Leonel Moreira","2 April 1990 (aged 28)",9,0,"Costa Rica Herediano"]
+      ],
+      "name": "Costa Rica",
+      "fifaCode": "CRC",
+      "iso2": "cr",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Costa_Rica_%28state%29.svg/833px-Flag_of_Costa_Rica_%28state%29.png",
+      "emoji": "flag-cr",
+      "emojiString": "🇨🇷"
+    },
+    {
+      "id": 20,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Mladen Krstajić",
+      "captain":"Aleksandar Kolarov",
+      "squad":[
+        [1,"Goalkeeper","Vladimir Stojković","28 July 1983 (aged 34)",80,0,"Serbia Partizan"],
+        [2,"Defender","Antonio Rukavina","26 January 1984 (aged 34)",46,0,"Spain Villarreal"],
+        [3,"Defender","Duško Tošić","19 January 1985 (aged 33)",23,1,"Turkey Beşiktaş"],
+        [4,"Midfielder","Luka Milivojević","7 April 1991 (aged 27)",27,1,"England Crystal Palace"],
+        [5,"Defender","Uroš Spajić","13 February 1993 (aged 25)",5,0,"Belgium Anderlecht"],
+        [6,"Defender","Branislav Ivanović","22 February 1984 (aged 34)",102,12,"Russia Zenit Saint Petersburg"],
+        [7,"Midfielder","Andrija Živković","11 July 1996 (aged 21)",10,0,"Portugal Benfica"],
+        [8,"Forward","Aleksandar Prijović","21 April 1990 (aged 28)",8,1,"Greece PAOK"],
+        [9,"Forward","Aleksandar Mitrović","16 September 1994 (aged 23)",36,13,"England Fulham"],
+        [10,"Midfielder","Dušan Tadić","20 November 1988 (aged 29)",52,13,"England Southampton"],
+        [11,"Defender","Aleksandar Kolarov","10 November 1985 (aged 32)",75,10,"Italy Roma"],
+        [12,"Goalkeeper","Predrag Rajković","31 October 1995 (aged 22)",7,0,"Israel Maccabi Tel Aviv"],
+        [13,"Defender","Miloš Veljković","26 September 1995 (aged 22)",2,0,"Germany Werder Bremen"],
+        [14,"Defender","Milan Rodić","2 April 1991 (aged 27)",1,0,"Serbia Red Star Belgrade"],
+        [15,"Defender","Nikola Milenković","12 October 1997 (aged 20)",2,0,"Italy Fiorentina"],
+        [16,"Midfielder","Marko Grujić","13 April 1996 (aged 22)",7,0,"Wales Cardiff City"],
+        [17,"Midfielder","Filip Kostić","1 November 1992 (aged 25)",22,2,"Germany Hamburger SV"],
+        [18,"Forward","Nemanja Radonjić","15 February 1996 (aged 22)",2,0,"Serbia Red Star Belgrade"],
+        [19,"Forward","Luka Jović","23 December 1997 (aged 20)",1,0,"Germany Eintracht Frankfurt"],
+        [20,"Midfielder","Sergej Milinković-Savić","27 February 1995 (aged 23)",3,0,"Italy Lazio"],
+        [21,"Midfielder","Nemanja Matić","1 August 1988 (aged 29)",39,2,"England Manchester United"],
+        [22,"Midfielder","Adem Ljajić","29 September 1991 (aged 26)",28,5,"Italy Torino"],
+        [23,"Goalkeeper","Marko Dmitrović","24 January 1992 (aged 26)",2,0,"Spain Eibar"]
+      ],
+      "name": "Serbia",
+      "fifaCode": "SRB",
+      "iso2": "rs",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/1350px-Flag_of_Serbia.png",
+      "emoji": "flag-rs",
+      "emojiString": "🇷🇸"
+    },
+    {
+      "id": 21,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Joachim Löw",
+      "captain":"Manuel Neuer",
+      "squad":[
+        [1,"Goalkeeper","Manuel Neuer","27 March 1986 (aged 32)",75,0,"Germany Bayern Munich"],
+        [2,"Defender","Marvin Plattenhardt","26 January 1992 (aged 26)",6,0,"Germany Hertha BSC"],
+        [3,"Defender","Jonas Hector","27 May 1990 (aged 28)",37,3,"Germany 1. FC Köln"],
+        [4,"Defender","Matthias Ginter","19 January 1994 (aged 24)",17,0,"Germany Borussia Mönchengladbach"],
+        [5,"Defender","Mats Hummels","16 December 1988 (aged 29)",63,5,"Germany Bayern Munich"],
+        [6,"Midfielder","Sami Khedira","4 April 1987 (aged 31)",74,7,"Italy Juventus"],
+        [7,"Midfielder","Julian Draxler","20 September 1993 (aged 24)",43,6,"France Paris Saint-Germain"],
+        [8,"Midfielder","Toni Kroos","4 January 1990 (aged 28)",82,12,"Spain Real Madrid"],
+        [9,"Forward","Timo Werner","6 March 1996 (aged 22)",13,7,"Germany RB Leipzig"],
+        [10,"Midfielder","Mesut Özil","15 October 1988 (aged 29)",90,23,"England Arsenal"],
+        [11,"Forward","Marco Reus","31 May 1989 (aged 29)",30,9,"Germany Borussia Dortmund"],
+        [12,"Goalkeeper","Kevin Trapp","8 July 1990 (aged 27)",3,0,"France Paris Saint-Germain"],
+        [13,"Midfielder","Thomas Müller","13 September 1989 (aged 28)",90,38,"Germany Bayern Munich"],
+        [14,"Midfielder","Leon Goretzka","6 February 1995 (aged 23)",15,6,"Germany Schalke 04"],
+        [15,"Defender","Niklas Süle","3 September 1995 (aged 22)",10,0,"Germany Bayern Munich"],
+        [16,"Defender","Antonio Rüdiger","3 March 1993 (aged 25)",24,1,"England Chelsea"],
+        [17,"Defender","Jérôme Boateng","3 September 1988 (aged 29)",70,1,"Germany Bayern Munich"],
+        [18,"Defender","Joshua Kimmich","8 February 1995 (aged 23)",28,3,"Germany Bayern Munich"],
+        [19,"Midfielder","Sebastian Rudy","28 February 1990 (aged 28)",25,1,"Germany Bayern Munich"],
+        [20,"Midfielder","Julian Brandt","2 May 1996 (aged 22)",15,1,"Germany Bayer Leverkusen"],
+        [21,"Midfielder","İlkay Gündoğan","24 October 1990 (aged 27)",25,4,"England Manchester City"],
+        [22,"Goalkeeper","Marc-André ter Stegen","30 April 1992 (aged 26)",19,0,"Spain Barcelona"],
+        [23,"Forward","Mario Gómez","10 July 1985 (aged 32)",74,31,"Germany VfB Stuttgart"]
+      ],
+      "name": "Germany",
+      "fifaCode": "GER",
+      "iso2": "de",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/800px-Flag_of_Germany.png",
+      "emoji": "flag-de",
+      "emojiString": "🇩🇪"
+    },
+    {
+      "id": 22,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Juan Carlos Osorio",
+      "captain":"Andrés Guardado ",
+      "squad":[
+        [1,"Goalkeeper","José de Jesús Corona","26 January 1981 (aged 37)",52,0,"Mexico Cruz Azul"],
+        [2,"Defender","Hugo Ayala","31 March 1987 (aged 31)",42,1,"Mexico UANL"],
+        [3,"Defender","Carlos Salcedo","29 September 1993 (aged 24)",20,0,"Germany Eintracht Frankfurt"],
+        [4,"Defender","Rafael Márquez","13 February 1979 (aged 39)",144,18,"Mexico Atlas"],
+        [5,"Defender","Diego Reyes","19 September 1992 (aged 25)",55,1,"Portugal Porto"],
+        [6,"Midfielder","Jonathan dos Santos","26 April 1990 (aged 28)",31,0,"United States LA Galaxy"],
+        [7,"Midfielder","Miguel Layún","25 June 1988 (aged 29)",63,6,"Spain Sevilla"],
+        [8,"Forward","Marco Fabián","21 July 1989 (aged 28)",38,9,"Germany Eintracht Frankfurt"],
+        [9,"Forward","Raúl Jiménez","5 May 1991 (aged 27)",63,13,"Portugal Benfica"],
+        [10,"Midfielder","Giovani dos Santos","11 May 1989 (aged 29)",104,19,"United States LA Galaxy"],
+        [11,"Forward","Carlos Vela","1 March 1989 (aged 29)",68,18,"United States Los Angeles FC"],
+        [12,"Goalkeeper","Alfredo Talavera","18 September 1982 (aged 35)",27,0,"Mexico Toluca"],
+        [13,"Goalkeeper","Guillermo Ochoa","13 July 1985 (aged 32)",93,0,"Belgium Standard Liège"],
+        [14,"Forward","Javier Hernández","1 June 1988 (aged 30)",101,49,"England West Ham United"],
+        [15,"Defender","Héctor Moreno","17 January 1988 (aged 30)",91,3,"Spain Real Sociedad"],
+        [16,"Defender","Héctor Herrera","19 April 1990 (aged 28)",65,5,"Portugal Porto"],
+        [17,"Midfielder","Jesús Manuel Corona","6 January 1993 (aged 25)",35,7,"Portugal Porto"],
+        [18,"Midfielder","Andrés Guardado","28 September 1986 (aged 31)",144,25,"Spain Real Betis"],
+        [19,"Forward","Oribe Peralta","12 January 1984 (aged 34)",66,26,"Mexico América"],
+        [20,"Midfielder","Javier Aquino","11 February 1990 (aged 28)",53,0,"Mexico UANL"],
+        [21,"Defender","Edson Álvarez","24 October 1997 (aged 20)",12,1,"Mexico América"],
+        [22,"Forward","Hirving Lozano","30 July 1995 (aged 22)",27,7,"Netherlands PSV Eindhoven"],
+        [23,"Midfielder","Jesús Gallardo","15 August 1994 (aged 23)",22,0,"Mexico UNAM"]
+      ],
+      "name": "Mexico",
+      "fifaCode": "MEX",
+      "iso2": "mx",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/800px-Flag_of_Mexico.png",
+      "emoji": "flag-mx",
+      "emojiString": "🇲🇽"
+    },
+    {
+      "id": 23,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Janne Andersson",
+      "captain":"Andreas Granqvist ",
+      "squad":[
+        [1,"Goalkeeper","Robin Olsen","8 January 1990 (aged 28)",17,0,"Denmark Copenhagen"],
+        [2,"Defender","Mikael Lustig","13 December 1986 (aged 31)",65,6,"Scotland Celtic"],
+        [3,"Defender","Victor Lindelöf","17 July 1994 (aged 23)",20,1,"England Manchester United"],
+        [4,"Defender","Andreas Granqvist","16 April 1985 (aged 33)",71,6,"Russia Krasnodar"],
+        [5,"Defender","Martin Olsson","17 May 1988 (aged 30)",43,5,"Wales Swansea City"],
+        [6,"Defender","Ludwig Augustinsson","21 April 1994 (aged 24)",14,0,"Germany Werder Bremen"],
+        [7,"Midfielder","Sebastian Larsson","6 June 1985 (aged 33)",99,6,"England Hull City"],
+        [8,"Midfielder","Albin Ekdal","28 July 1989 (aged 28)",33,0,"Germany Hamburger SV"],
+        [9,"Forward","Marcus Berg","17 August 1986 (aged 31)",56,18,"United Arab Emirates Al Ain"],
+        [10,"Midfielder","Emil Forsberg","23 October 1991 (aged 26)",35,6,"Germany RB Leipzig"],
+        [11,"Forward","John Guidetti","15 April 1992 (aged 26)",20,1,"Spain Alavés"],
+        [12,"Goalkeeper","Karl-Johan Johnsson","28 January 1990 (aged 28)",5,0,"France Guingamp"],
+        [13,"Midfielder","Gustav Svensson","7 February 1987 (aged 31)",12,0,"United States Seattle Sounders FC"],
+        [14,"Defender","Filip Helander","22 April 1993 (aged 25)",4,0,"Italy Bologna"],
+        [15,"Midfielder","Oscar Hiljemark","28 June 1992 (aged 25)",21,2,"Italy Genoa"],
+        [16,"Defender","Emil Krafth","2 August 1994 (aged 23)",12,0,"Italy Bologna"],
+        [17,"Midfielder","Viktor Claesson","2 January 1992 (aged 26)",21,3,"Russia Krasnodar"],
+        [18,"Defender","Pontus Jansson","13 February 1991 (aged 27)",15,0,"England Leeds United"],
+        [19,"Midfielder","Marcus Rohdén","11 May 1991 (aged 27)",11,1,"Italy Crotone"],
+        [20,"Forward","Ola Toivonen","3 July 1986 (aged 31)",58,13,"France Toulouse"],
+        [21,"Midfielder","Jimmy Durmaz","22 March 1989 (aged 29)",45,3,"France Toulouse"],
+        [22,"Forward","Isaac Kiese Thelin","24 June 1992 (aged 25)",19,2,"Belgium Waasland-Beveren"],
+        [23,"Goalkeeper","Kristoffer Nordfeldt","23 June 1989 (aged 28)",8,0,"Wales Swansea City"]
+      ],
+      "name": "Sweden",
+      "fifaCode": "SWE",
+      "iso2": "se",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/1600px-Flag_of_Sweden.png",
+      "emoji": "flag-se",
+      "emojiString": "🇸🇪"
+    },
+    {
+      "id": 24,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Shin Tae-yong",
+      "captain":"Ki Sung-yueng ",
+      "squad":[
+        [1,"Goalkeeper","Kim Seung-gyu","30 September 1990 (aged 27)",32,0,"Japan Vissel Kobe"],
+        [2,"Defender","Lee Yong","24 December 1986 (aged 31)",26,0,"South Korea Jeonbuk Hyundai Motors"],
+        [3,"Defender","Jung Seung-hyun","3 April 1994 (aged 24)",6,0,"Japan Sagan Tosu"],
+        [4,"Defender","Oh Ban-suk","20 May 1988 (aged 30)",2,0,"South Korea Jeju United"],
+        [5,"Defender","Yun Young-sun","4 October 1988 (aged 29)",5,0,"South Korea Seongnam FC"],
+        [6,"Defender","Park Joo-ho","16 January 1987 (aged 31)",35,0,"South Korea Ulsan Hyundai"],
+        [7,"Forward","Son Heung-min","8 July 1992 (aged 25)",65,21,"England Tottenham Hotspur"],
+        [8,"Midfielder","Ju Se-jong","30 October 1990 (aged 27)",10,1,"South Korea Asan Mugunghwa"],
+        [9,"Forward","Kim Shin-wook","14 April 1988 (aged 30)",48,10,"South Korea Jeonbuk Hyundai Motors"],
+        [10,"Midfielder","Lee Seung-woo","6 January 1998 (aged 20)",2,0,"Italy Hellas Verona"],
+        [11,"Forward","Hwang Hee-chan","26 January 1996 (aged 22)",13,2,"Austria Red Bull Salzburg"],
+        [12,"Defender","Kim Min-woo","25 February 1990 (aged 28)",18,1,"South Korea Sangju Sangmu"],
+        [13,"Midfielder","Koo Ja-cheol","27 February 1989 (aged 29)",66,19,"Germany FC Augsburg"],
+        [14,"Defender","Hong Chul","17 September 1990 (aged 27)",14,0,"South Korea Sangju Sangmu"],
+        [15,"Midfielder","Jung Woo-young","14 December 1989 (aged 28)",28,1,"Japan Vissel Kobe"],
+        [16,"Midfielder","Ki Sung-yueng","24 January 1989 (aged 29)",100,10,"Wales Swansea City"],
+        [17,"Midfielder","Lee Jae-sung","10 August 1992 (aged 25)",33,6,"South Korea Jeonbuk Hyundai Motors"],
+        [18,"Midfielder","Moon Seon-min","9 June 1992 (aged 26)",2,1,"South Korea Incheon United"],
+        [19,"Defender","Kim Young-gwon","27 February 1990 (aged 28)",51,2,"China Guangzhou Evergrande"],
+        [20,"Defender","Jang Hyun-soo","28 September 1991 (aged 26)",49,3,"Japan FC Tokyo"],
+        [21,"Goalkeeper","Kim Jin-hyeon","6 July 1987 (aged 30)",14,0,"Japan Cerezo Osaka"],
+        [22,"Defender","Go Yo-han","10 March 1988 (aged 30)",19,0,"South Korea FC Seoul"],
+        [23,"Goalkeeper","Cho Hyun-woo","25 September 1991 (aged 26)",5,0,"South Korea Daegu FC"]
+      ],
+      "name": "South Korea",
+      "fifaCode": "KOR",
+      "iso2": "kr",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/900px-Flag_of_South_Korea.png",
+      "emoji": "flag-kr",
+      "emojiString": "🇰🇷"
+    },
+    {
+      "id": 25,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":3,
+        "points":3
+
+      },
+      "coach":"Roberto Martínez",
+      "captain":"Eden Hazard",
+      "squad":[
+        [1,"Goalkeeper","Thibaut Courtois","11 May 1992 (aged 26)",56,0,"England Chelsea"],
+        [2,"Defender","Toby Alderweireld","2 March 1989 (aged 29)",72,3,"England Tottenham Hotspur"],
+        [3,"Defender","Thomas Vermaelen","14 November 1985 (aged 32)",64,1,"Spain Barcelona"],
+        [4,"Defender","Vincent Kompany","10 April 1986 (aged 32)",74,4,"England Manchester City"],
+        [5,"Defender","Jan Vertonghen","24 April 1987 (aged 31)",100,8,"England Tottenham Hotspur"],
+        [6,"Midfielder","Axel Witsel","12 January 1989 (aged 29)",85,9,"China Tianjin Quanjian"],
+        [7,"Midfielder","Kevin De Bruyne","28 June 1991 (aged 26)",57,13,"England Manchester City"],
+        [8,"Midfielder","Marouane Fellaini","22 November 1987 (aged 30)",79,16,"England Manchester United"],
+        [9,"Forward","Romelu Lukaku","13 May 1993 (aged 25)",64,30,"England Manchester United"],
+        [10,"Forward","Eden Hazard","7 January 1991 (aged 27)",82,21,"England Chelsea"],
+        [11,"Midfielder","Yannick Carrasco","4 September 1993 (aged 24)",23,5,"China Dalian Yifang"],
+        [12,"Goalkeeper","Simon Mignolet","6 March 1988 (aged 30)",21,0,"England Liverpool"],
+        [13,"Goalkeeper","Koen Casteels","25 June 1992 (aged 25)",0,0,"Germany VfL Wolfsburg"],
+        [14,"Forward","Dries Mertens","6 May 1987 (aged 31)",65,13,"Italy Napoli"],
+        [15,"Defender","Thomas Meunier","12 September 1991 (aged 26)",23,5,"France Paris Saint-Germain"],
+        [16,"Midfielder","Thorgan Hazard","29 March 1993 (aged 25)",8,1,"Germany Borussia Mönchengladbach"],
+        [17,"Midfielder","Youri Tielemans","7 May 1997 (aged 21)",7,0,"France Monaco"],
+        [18,"Forward","Adnan Januzaj","5 February 1995 (aged 23)",7,0,"Spain Real Sociedad"],
+        [19,"Midfielder","Mousa Dembélé","16 July 1987 (aged 30)",74,5,"England Tottenham Hotspur"],
+        [20,"Defender","Dedryck Boyata","28 November 1990 (aged 27)",5,0,"Scotland Celtic"],
+        [21,"Forward","Michy Batshuayi","2 October 1993 (aged 24)",13,5,"Germany Borussia Dortmund"],
+        [22,"Midfielder","Nacer Chadli","2 August 1989 (aged 28)",41,4,"England West Bromwich Albion"],
+        [23,"Defender","Leander Dendoncker","15 April 1995 (aged 23)",4,0,"Belgium Anderlecht"]
+      ],
+      "name": "Belgium",
+      "fifaCode": "BEL",
+      "iso2": "be",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/450px-Flag_of_Belgium.png",
+      "emoji": "flag-be",
+      "emojiString": "🇧🇪"
+    },
+    {
+      "id": 26,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-3,
+        "points":0
+
+      },
+      "coach":"Hernán Darío Gómez",
+      "captain":"Felipe Baloy",
+      "squad":[
+        [1,"Goalkeeper","Jaime Penedo","26 September 1981 (aged 36)",130,0,"Romania Dinamo București"],
+        [2,"Defender","Michael Amir Murillo","11 February 1996 (aged 22)",21,2,"United States New York Red Bulls"],
+        [3,"Defender","Harold Cummings","1 March 1992 (aged 26)",51,0,"United States San Jose Earthquakes"],
+        [4,"Defender","Fidel Escobar","9 January 1995 (aged 23)",22,1,"United States New York Red Bulls"],
+        [5,"Defender","Román Torres","20 March 1986 (aged 32)",110,10,"United States Seattle Sounders FC"],
+        [6,"Midfielder","Gabriel Gómez","29 May 1984 (aged 34)",143,12,"Colombia Atlético Bucaramanga"],
+        [7,"Forward","Blas Pérez","13 March 1981 (aged 37)",117,43,"Guatemala Municipal"],
+        [8,"Midfielder","Édgar Bárcenas","23 October 1993 (aged 24)",28,0,"Mexico Tapachula"],
+        [9,"Forward","Gabriel Torres","31 October 1988 (aged 29)",71,14,"Chile Huachipato"],
+        [10,"Forward","Ismael Díaz","12 May 1997 (aged 21)",10,2,"Spain Deportivo Fabril"],
+        [11,"Midfielder","Armando Cooper","26 November 1987 (aged 30)",97,7,"Chile Universidad de Chile"],
+        [12,"Goalkeeper","José Calderón","14 August 1985 (aged 32)",31,0,"Panama Chorrillo"],
+        [13,"Defender","Adolfo Machado","14 February 1985 (aged 33)",75,1,"United States Houston Dynamo"],
+        [14,"Midfielder","Valentín Pimentel","30 May 1991 (aged 27)",22,1,"Panama Plaza Amador"],
+        [15,"Defender","Erick Davis","31 March 1991 (aged 27)",37,0,"Slovakia Dunajská Streda"],
+        [16,"Forward","Abdiel Arroyo","13 December 1993 (aged 24)",33,5,"Costa Rica Alajuelense"],
+        [17,"Defender","Luis Ovalle","7 September 1988 (aged 29)",25,0,"Honduras Olimpia"],
+        [18,"Forward","Luis Tejada","28 March 1982 (aged 36)",105,43,"Peru Sport Boys"],
+        [19,"Midfielder","Alberto Quintero","18 December 1987 (aged 30)",89,5,"Peru Universitario"],
+        [20,"Midfielder","Aníbal Godoy","10 February 1990 (aged 28)",88,2,"United States San Jose Earthquakes"],
+        [21,"Midfielder","José Luis Rodríguez","19 June 1998 (aged 19)",1,0,"Belgium Gent"],
+        [22,"Goalkeeper","Álex Rodríguez","5 August 1990 (aged 27)",6,0,"Panama San Francisco"],
+        [23,"Defender","Felipe Baloy","24 February 1981 (aged 37)",102,3,"Guatemala Municipal"]
+      ],
+      "name": "Panama",
+      "fifaCode": "PAN",
+      "iso2": "pa",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/450px-Flag_of_Panama.png",
+      "emoji": "flag-pa",
+      "emojiString": "🇵🇦"
+    },
+    {
+      "id": 27,
+      "table":{
+        "played":1,
+        "won":0,
+        "lose":1,
+        "draw":0,
+        "goalDifference":-1,
+        "points":0
+
+      },
+      "coach":"Nabil Maâloul",
+      "captain":"Aymen Mathlouthi",
+      "squad":[
+        [1,"Goalkeeper","Farouk Ben Mustapha","1 July 1989 (aged 28)",15,0,"Saudi Arabia Al-Shabab"],
+        [2,"Defender","Syam Ben Youssef","31 March 1989 (aged 29)",41,1,"Turkey Kasımpaşa"],
+        [3,"Defender","Yohan Benalouane","28 March 1987 (aged 31)",3,0,"England Leicester City"],
+        [4,"Defender","Yassine Meriah","2 July 1993 (aged 24)",15,1,"Tunisia CS Sfaxien"],
+        [5,"Defender","Oussama Haddadi","28 January 1992 (aged 26)",8,0,"France Dijon"],
+        [6,"Defender","Rami Bedoui","19 January 1990 (aged 28)",8,0,"Tunisia Étoile du Sahel"],
+        [7,"Forward","Saîf-Eddine Khaoui","27 April 1995 (aged 23)",4,0,"France Troyes"],
+        [8,"Forward","Fakhreddine Ben Youssef","23 June 1991 (aged 26)",38,5,"Saudi Arabia Al-Ettifaq"],
+        [9,"Midfielder","Anice Badri","18 September 1990 (aged 27)",6,2,"Tunisia Espérance"],
+        [10,"Forward","Wahbi Khazri","8 February 1991 (aged 27)",35,12,"France Rennes"],
+        [11,"Defender","Dylan Bronn","19 June 1995 (aged 22)",4,0,"Belgium Gent"],
+        [12,"Defender","Ali Maâloul","1 January 1990 (aged 28)",45,0,"Egypt Al Ahly"],
+        [13,"Midfielder","Ferjani Sassi","18 March 1992 (aged 26)",38,3,"Saudi Arabia Al-Nassr"],
+        [14,"Midfielder","Mohamed Amine Ben Amor","3 May 1992 (aged 26)",25,1,"Saudi Arabia Al-Ahli"],
+        [15,"Forward","Ahmed Khalil","21 December 1994 (aged 23)",3,0,"Tunisia Club Africain"],
+        [16,"Goalkeeper","Aymen Mathlouthi (captain)","14 September 1984 (aged 33)",69,0,"Saudi Arabia Al-Batin"],
+        [17,"Midfielder","Ellyes Skhiri","10 May 1995 (aged 23)",4,0,"France Montpellier"],
+        [18,"Forward","Bassem Srarfi","25 June 1997 (aged 20)",4,0,"France Nice"],
+        [19,"Forward","Saber Khalifa","14 October 1986 (aged 31)",43,7,"Tunisia Club Africain"],
+        [20,"Forward","Ghailene Chaalali","28 February 1994 (aged 24)",6,1,"Tunisia Espérance"],
+        [21,"Defender","Hamdi Nagguez","28 October 1992 (aged 25)",15,0,"Egypt Zamalek"],
+        [22,"Goalkeeper","Mouez Hassen","5 March 1995 (aged 23)",3,0,"France Châteauroux"],
+        [23,"Forward","Naïm Sliti","27 July 1992 (aged 25)",16,3,"France Dijon"]
+      ],
+      "name": "Tunisia",
+      "fifaCode": "TUN",
+      "iso2": "tn",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/1200px-Flag_of_Tunisia.png",
+      "emoji": "flag-tn",
+      "emojiString": "🇹🇳"
+    },
+    {
+      "id": 28,
+      "table":{
+        "played":1,
+        "won":1,
+        "lose":0,
+        "draw":0,
+        "goalDifference":1,
+        "points":3
+
+      },
+      "coach":"Gareth Southgate",
+      "captain":"Harry Kane",
+      "squad":[
+        [1,"Goalkeeper","Jordan Pickford","7 March 1994 (aged 24)",3,0,"England Everton"],
+        [2,"Defender","Kyle Walker","28 May 1990 (aged 28)",35,0,"England Manchester City"],
+        [3,"Defender","Danny Rose","2 July 1990 (aged 27)",17,0,"England Tottenham Hotspur"],
+        [4,"Midfielder","Eric Dier","15 January 1994 (aged 24)",26,3,"England Tottenham Hotspur"],
+        [5,"Defender","John Stones","28 May 1994 (aged 24)",25,0,"England Manchester City"],
+        [6,"Defender","Harry Maguire","5 March 1993 (aged 25)",4,0,"England Leicester City"],
+        [7,"Midfielder","Jesse Lingard","15 December 1992 (aged 25)",11,1,"England Manchester United"],
+        [8,"Midfielder","Jordan Henderson","17 June 1990 (aged 27)",38,0,"England Liverpool"],
+        [9,"Forward","Harry Kane","28 July 1993 (aged 24)",24,13,"England Tottenham Hotspur"],
+        [10,"Forward","Raheem Sterling","8 December 1994 (aged 23)",38,2,"England Manchester City"],
+        [11,"Forward","Jamie Vardy","11 January 1987 (aged 31)",21,7,"England Leicester City"],
+        [12,"Defender","Kieran Trippier","19 September 1990 (aged 27)",6,0,"England Tottenham Hotspur"],
+        [13,"Goalkeeper","Jack Butland","10 March 1993 (aged 25)",7,0,"England Stoke City"],
+        [14,"Forward","Danny Welbeck","26 November 1990 (aged 27)",38,15,"England Arsenal"],
+        [15,"Defender","Gary Cahill","19 December 1985 (aged 32)",59,5,"England Chelsea"],
+        [16,"Defender","Phil Jones","21 February 1992 (aged 26)",24,0,"England Manchester United"],
+        [17,"Defender","Fabian Delph","21 November 1989 (aged 28)",10,0,"England Manchester City"],
+        [18,"Defender","Ashley Young","9 July 1985 (aged 32)",34,7,"England Manchester United"],
+        [19,"Forward","Marcus Rashford","31 October 1997 (aged 20)",18,2,"England Manchester United"],
+        [20,"Midfielder","Dele Alli","11 April 1996 (aged 22)",24,2,"England Tottenham Hotspur"],
+        [21,"Midfielder","Ruben Loftus-Cheek","23 January 1996 (aged 22)",3,0,"England Crystal Palace"],
+        [22,"Defender","Trent Alexander-Arnold","7 October 1998 (aged 19)",0,0,"England Liverpool"],
+        [23,"Goalkeeper","Nick Pope","19 April 1992 (aged 26)",0,0,"England Burnley"]
+      ],
+      "name": "England",
+      "fifaCode": "ENG",
+      "iso2": "gb-eng",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/800px-Flag_of_England.png",
+      "emoji": "flag-england",
+      "emojiString": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+      "id": 29,
+      "table":{
+        "played":0,
+        "won":0,
+        "lose":0,
+        "draw":0,
+        "goalDifference":0,
+        "points":0
+
+      },
+      "coach":"Adam Nawałka",
+      "captain":"Robert Lewandowski",
+      "squad":[
+        [1,"Goalkeeper","Wojciech Szczęsny","18 April 1990 (aged 28)",33,0,"Italy Juventus"],
+        [2,"Defender","Michał Pazdan","21 September 1987 (aged 30)",31,0,"Poland Legia Warsaw"],
+        [3,"Defender","Artur Jędrzejczyk","4 November 1987 (aged 30)",35,3,"Poland Legia Warsaw"],
+        [4,"Defender","Thiago Cionek","21 April 1986 (aged 32)",17,0,"Italy SPAL"],
+        [5,"Defender","Jan Bednarek","12 April 1996 (aged 22)",1,0,"England Southampton"],
+        [6,"Midfielder","Jacek Góralski","21 September 1992 (aged 25)",3,0,"Bulgaria Ludogorets Razgrad"],
+        [7,"Forward","Arkadiusz Milik","28 February 1994 (aged 24)",38,12,"Italy Napoli"],
+        [8,"Midfielder","Karol Linetty","2 February 1995 (aged 23)",19,1,"Italy Sampdoria"],
+        [9,"Forward","Robert Lewandowski","21 August 1988 (aged 29)",93,52,"Germany Bayern Munich"],
+        [10,"Midfielder","Grzegorz Krychowiak","29 January 1990 (aged 28)",49,2,"England West Bromwich Albion"],
+        [11,"Midfielder","Kamil Grosicki","8 June 1988 (aged 30)",56,12,"England Hull City"],
+        [12,"Goalkeeper","Bartosz Białkowski","6 July 1987 (aged 30)",1,0,"England Ipswich Town"],
+        [13,"Midfielder","Maciej Rybus","19 August 1989 (aged 28)",49,2,"Russia Lokomotiv Moscow"],
+        [14,"Forward","Łukasz Teodorczyk","3 June 1991 (aged 27)",15,4,"Belgium Anderlecht"],
+        [15,"Defender","Kamil Glik","3 February 1988 (aged 30)",57,4,"France Monaco"],
+        [16,"Midfielder","Jakub Błaszczykowski","14 December 1985 (aged 32)",97,19,"Germany VfL Wolfsburg"],
+        [17,"Midfielder","Sławomir Peszko","19 February 1985 (aged 33)",43,2,"Poland Lechia Gdańsk"],
+        [18,"Defender","Bartosz Bereszyński","12 July 1992 (aged 25)",6,0,"Italy Sampdoria"],
+        [19,"Midfielder","Piotr Zieliński","20 May 1994 (aged 24)",31,4,"Italy Napoli"],
+        [20,"Defender","Łukasz Piszczek","3 June 1985 (aged 33)",61,3,"Germany Borussia Dortmund"],
+        [21,"Midfielder","Rafał Kurzawa","29 January 1993 (aged 25)",3,0,"Poland Górnik Zabrze"],
+        [22,"Goalkeeper","Łukasz Fabiański","18 April 1985 (aged 33)",43,0,"Wales Swansea City"],
+        [23,"Forward","Dawid Kownacki","14 March 1997 (aged 21)",1,0,"Italy Sampdoria"]
+      ],
+      "name": "Poland",
+      "fifaCode": "POL",
+      "iso2": "pl",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1280px-Flag_of_Poland.png",
+      "emoji": "flag-pl",
+      "emojiString": "🇵🇱"
+    },
+    {
+      "id": 30,
+      "table":{
+        "played":0,
+        "won":0,
+        "lose":0,
+        "draw":0,
+        "goalDifference":0,
+        "points":0
+
+      },
+      "coach":"Aliou Cissé",
+      "captain":"Cheikhou Kouyaté",
+      "squad":[
+        [1,"Goalkeeper","Abdoulaye Diallo","30 March 1992 (aged 26)",16,0,"France Rennes"],
+        [2,"Defender","Saliou Ciss","15 June 1989 (aged 28)",18,0,"France Valenciennes"],
+        [3,"Defender","Kalidou Koulibaly","20 June 1991 (aged 26)",24,0,"Italy Napoli"],
+        [4,"Defender","Kara Mbodji","22 November 1989 (aged 28)",51,5,"Belgium Anderlecht"],
+        [5,"Midfielder","Idrissa Gueye","26 September 1989 (aged 28)",59,1,"England Everton"],
+        [6,"Midfielder","Salif Sané","25 August 1990 (aged 27)",20,0,"Germany Hannover 96"],
+        [7,"Forward","Moussa Sow","19 January 1986 (aged 32)",50,18,"Turkey Bursaspor"],
+        [8,"Midfielder","Cheikhou Kouyaté","21 December 1989 (aged 28)",47,2,"England West Ham United"],
+        [9,"Forward","Mame Biram Diouf","16 December 1987 (aged 30)",47,10,"England Stoke City"],
+        [10,"Forward","Sadio Mané","10 April 1992 (aged 26)",51,14,"England Liverpool"],
+        [11,"Midfielder","Cheikh N'Doye","29 March 1986 (aged 32)",24,3,"England Birmingham City"],
+        [12,"Defender","Youssouf Sabaly","5 March 1993 (aged 25)",3,0,"France Bordeaux"],
+        [13,"Midfielder","Alfred N'Diaye","6 March 1990 (aged 28)",19,0,"England Wolverhampton Wanderers"],
+        [14,"Forward","Moussa Konaté","3 April 1993 (aged 25)",27,9,"France Amiens"],
+        [15,"Forward","Diafra Sakho","24 December 1989 (aged 28)",10,3,"France Rennes"],
+        [16,"Goalkeeper","Khadim N'Diaye","5 April 1985 (aged 33)",25,0,"Guinea Horoya"],
+        [17,"Midfielder","Badou Ndiaye","27 October 1990 (aged 27)",18,1,"England Stoke City"],
+        [18,"Forward","Ismaïla Sarr","25 February 1998 (aged 20)",14,2,"France Rennes"],
+        [19,"Forward","M'Baye Niang","19 December 1994 (aged 23)",5,0,"Italy Torino"],
+        [20,"Forward","Keita Baldé","8 March 1995 (aged 23)",17,3,"France Monaco"],
+        [21,"Defender","Lamine Gassama","20 October 1989 (aged 28)",35,0,"Turkey Alanyaspor"],
+        [22,"Defender","Moussa Wagué","4 October 1998 (aged 19)",9,0,"Belgium Eupen"],
+        [23,"Goalkeeper","Alfred Gomis","5 September 1993 (aged 24)",1,0,"Italy SPAL"]
+      ],
+      "name": "Senegal",
+      "fifaCode": "SEN",
+      "iso2": "sn",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/900px-Flag_of_Senegal.svg.png",
+      "emoji": "flag-sn",
+      "emojiString": "🇸🇳"
+    },
+    {
+      "id": 31,
+      "table":{
+        "played":0,
+        "won":0,
+        "lose":0,
+        "draw":0,
+        "goalDifference":0,
+        "points":0
+
+      },
+      "coach":"José Pékerman",
+      "captain":"Radamel Falcao",
+      "squad":[
+        [1,"Goalkeeper","David Ospina","31 August 1988 (aged 29)",86,0,"England Arsenal"],
+        [2,"Defender","Cristián Zapata","30 September 1986 (aged 31)",55,2,"Italy Milan"],
+        [3,"Defender","Óscar Murillo","18 April 1988 (aged 30)",13,0,"Mexico Pachuca"],
+        [4,"Defender","Santiago Arias","13 January 1992 (aged 26)",41,0,"Netherlands PSV Eindhoven"],
+        [5,"Midfielder","Wílmar Barrios","16 October 1993 (aged 24)",10,0,"Argentina Boca Juniors"],
+        [6,"Midfielder","Carlos Sánchez","6 February 1986 (aged 32)",85,0,"Spain Espanyol"],
+        [7,"Forward","Carlos Bacca","8 September 1986 (aged 31)",45,14,"Spain Villarreal"],
+        [8,"Midfielder","Abel Aguilar","6 January 1985 (aged 33)",70,7,"Colombia Deportivo Cali"],
+        [9,"Forward","Radamel Falcao","10 February 1986 (aged 32)",73,29,"France Monaco"],
+        [10,"Midfielder","James Rodríguez","12 July 1991 (aged 26)",63,21,"Germany Bayern Munich"],
+        [11,"Midfielder","Juan Cuadrado","26 May 1988 (aged 30)",70,7,"Italy Juventus"],
+        [12,"Goalkeeper","Camilo Vargas","9 March 1989 (aged 29)",5,0,"Colombia Deportivo Cali"],
+        [13,"Defender","Yerry Mina","23 September 1994 (aged 23)",12,3,"Spain Barcelona"],
+        [14,"Forward","Luis Muriel","16 April 1991 (aged 27)",18,2,"Spain Sevilla"],
+        [15,"Midfielder","Mateus Uribe","21 March 1991 (aged 27)",8,0,"Mexico América"],
+        [16,"Midfielder","Jefferson Lerma","25 October 1994 (aged 23)",5,0,"Spain Levante"],
+        [17,"Defender","Johan Mojica","21 August 1992 (aged 25)",4,1,"Spain Girona"],
+        [18,"Defender","Frank Fabra","22 February 1991 (aged 27)",19,1,"Argentina Boca Juniors"],
+        [19,"Forward","Miguel Borja","26 January 1993 (aged 25)",7,2,"Brazil Palmeiras"],
+        [20,"Midfielder","Juan Fernando Quintero","18 January 1993 (aged 25)",15,2,"Argentina River Plate"],
+        [21,"Forward","José Izquierdo","7 July 1992 (aged 25)",5,1,"England Brighton & Hove Albion"],
+        [22,"Goalkeeper","José Fernando Cuadrado","1 June 1985 (aged 33)",1,0,"Colombia Once Caldas"],
+        [23,"Defender","Dávinson Sánchez","12 June 1996 (aged 22)",9,0,"England Tottenham Hotspur"]
+      ],
+      "name": "Colombia",
+      "fifaCode": "COL",
+      "iso2": "co",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/450px-Flag_of_Colombia.png",
+      "emoji": "flag-co",
+      "emojiString": "🇨🇴"
+    },
+    {
+      "id": 32,
+      "table":{
+        "played":0,
+        "won":0,
+        "lose":0,
+        "draw":0,
+        "goalDifference":0,
+        "points":0
+
+      },
+      "coach":"Akira Nishino",
+      "captain":"Makoto Hasebe",
+      "squad":[
+        [1,"Goalkeeper","Eiji Kawashima","20 March 1983 (aged 35)",83,0,"France Metz"],
+        [2,"Defender","Naomichi Ueda","24 October 1994 (aged 23)",3,0,"Japan Kashima Antlers"],
+        [3,"Defender","Gen Shoji","11 December 1992 (aged 25)",10,1,"Japan Kashima Antlers"],
+        [4,"Midfielder","Keisuke Honda","13 June 1986 (aged 32)",94,36,"Mexico Pachuca"],
+        [5,"Defender","Yuto Nagatomo","12 September 1986 (aged 31)",104,3,"Turkey Galatasaray"],
+        [6,"Defender","Wataru Endo","9 February 1993 (aged 25)",11,0,"Japan Urawa Red Diamonds"],
+        [7,"Midfielder","Gaku Shibasaki","28 May 1992 (aged 26)",16,3,"Spain Getafe"],
+        [8,"Midfielder","Genki Haraguchi","9 May 1991 (aged 27)",31,6,"Germany Fortuna Düsseldorf"],
+        [9,"Forward","Shinji Okazaki","16 April 1986 (aged 32)",112,50,"England Leicester City"],
+        [10,"Midfielder","Shinji Kagawa","17 March 1989 (aged 29)",90,29,"Germany Borussia Dortmund"],
+        [11,"Midfielder","Takashi Usami","6 May 1992 (aged 26)",22,3,"Germany Fortuna Düsseldorf"],
+        [12,"Goalkeeper","Masaaki Higashiguchi","12 May 1986 (aged 32)",4,0,"Japan Gamba Osaka"],
+        [13,"Forward","Yoshinori Mutō","15 July 1992 (aged 25)",22,2,"Germany Mainz 05"],
+        [14,"Midfielder","Takashi Inui","2 June 1988 (aged 30)",25,2,"Spain Eibar"],
+        [15,"Forward","Yuya Osako","18 May 1990 (aged 28)",27,7,"Germany 1. FC Köln"],
+        [16,"Midfielder","Hotaru Yamaguchi","6 October 1990 (aged 27)",41,2,"Japan Cerezo Osaka"],
+        [17,"Midfielder","Makoto Hasebe","18 January 1984 (aged 34)",109,2,"Germany Eintracht Frankfurt"],
+        [18,"Midfielder","Ryota Oshima","23 January 1993 (aged 25)",4,0,"Japan Kawasaki Frontale"],
+        [19,"Defender","Hiroki Sakai","12 April 1990 (aged 28)",41,0,"France Marseille"],
+        [20,"Defender","Tomoaki Makino","11 May 1987 (aged 31)",31,4,"Japan Urawa Red Diamonds"],
+        [21,"Defender","Gōtoku Sakai","14 March 1991 (aged 27)",39,0,"Germany Hamburger SV"],
+        [22,"Defender","Maya Yoshida","24 August 1988 (aged 29)",81,10,"England Southampton"],
+        [23,"Goalkeeper","Kosuke Nakamura","27 February 1995 (aged 23)",3,0,"Japan Kashiwa Reysol"]
+      ],
+      "name": "Japan",
+      "fifaCode": "JPN",
+      "iso2": "jp",
+      "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/900px-Flag_of_Japan.png",
+      "emoji": "flag-jp",
+      "emojiString": "🇯🇵"
+    }
+  ],
+  "groups": {
+    "a": {
+      "name": "Group A",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 1,
+          "type": "group",
+          "home_team": 1,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 2,
+          "home_result": 5,
+          "away_result": 0,
+          "date": "2018-06-14T18:00:00+03:00",
+          "stadium": 1,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 2,
+          "type": "group",
+          "home_team": 3,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 4,
+          "home_result": 0,
+          "away_result": 1,
+          "date": "2018-06-15T17:00:00+05:00",
+          "stadium": 12,
+          "channels": [3,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 17,
+          "type": "group",
+          "home_team": 1,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 3,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-19T21:00:00+03:00",
+          "stadium": 3,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 18,
+          "type": "group",
+          "home_team": 4,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 2,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-20T18:00:00+03:00",
+          "stadium": 10,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 33,
+          "type": "group",
+          "home_team": 4,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 1,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-25T18:00:00+04:00",
+          "stadium": 7,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 34,
+          "type": "group",
+          "home_team": 2,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 3,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-25T17:00:00+03:00",
+          "stadium": 8,
+          "channels": [5,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "b": {
+      "name": "Group B",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 3,
+          "type": "group",
+          "home_team": 5,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 6,
+          "home_result": 3,
+          "away_result": 3,
+          "date": "2018-06-15T21:00:00+03:00",
+          "stadium": 11,
+          "channels": [3,7],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 4,
+          "type": "group",
+          "home_team": 7,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 8,
+          "home_result": 0,
+          "away_result": 1,
+          "date": "2018-06-15T18:00:00+03:00",
+          "stadium": 3,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 19,
+          "type": "group",
+          "home_team": 5,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 7,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-20T15:00:00+03:00",
+          "stadium": 1,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 20,
+          "type": "group",
+          "home_team": 8,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 6,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-20T21:00:00+03:00",
+          "stadium": 5,
+          "channels": [4,7],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 35,
+          "type": "group",
+          "home_team": 8,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 5,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-25T21:00:00+03:00",
+          "stadium": 9,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 36,
+          "type": "group",
+          "home_team": 6,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 7,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-25T20:00:00+02:00",
+          "stadium": 4,
+          "channels": [3,7],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "c": {
+      "name": "Group C",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 5,
+          "type": "group",
+          "home_team": 9,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 10,
+          "home_result": 2,
+          "away_result": 1,
+          "date": "2018-06-16T13:00:00+03:00",
+          "stadium": 5,
+          "channels": [3,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 6,
+          "type": "group",
+          "home_team": 11,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 12,
+          "home_result": 0,
+          "away_result": 1,
+          "date": "2018-06-16T19:00:00+03:00",
+          "stadium": 9,
+          "channels": [3,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 21,
+          "type": "group",
+          "home_team": 9,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 11,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-21T20:00:00+05:00",
+          "stadium": 12,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 22,
+          "type": "group",
+          "home_team": 12,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 10,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-21T16:00:00+04:00",
+          "stadium": 7,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 37,
+          "type": "group",
+          "home_team": 12,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 9,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-26T17:00:00+03:00",
+          "stadium": 1,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 38,
+          "type": "group",
+          "home_team": 10,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 11,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-26T17:00:00+02:00",
+          "stadium": 11,
+          "channels": [5,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "d": {
+      "name": "Group D",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 7,
+          "type": "group",
+          "home_team": 13,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 14,
+          "home_result": 1,
+          "away_result": 1,
+          "date": "2018-06-16T16:00:00+03:00",
+          "stadium": 2,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 8,
+          "type": "group",
+          "home_team": 15,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 16,
+          "home_result": 2,
+          "away_result": 0,
+          "date": "2018-06-16T21:00:00+02:00",
+          "stadium": 4,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 23,
+          "type": "group",
+          "home_team": 13,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 15,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-21T21:00:00+03:00",
+          "stadium": 6,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 24,
+          "type": "group",
+          "home_team": 16,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 14,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-22T18:00:00+03:00",
+          "stadium": 8,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 39,
+          "type": "group",
+          "home_team": 16,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 13,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-26T21:00:00+03:00",
+          "stadium": 3,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 40,
+          "type": "group",
+          "home_team": 14,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 15,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-26T21:00:00+03:00",
+          "stadium": 10,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "e": {
+      "name": "Group E",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 9,
+          "type": "group",
+          "home_team": 17,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 18,
+          "home_result": 1,
+          "away_result": 1,
+          "date": "2018-06-17T21:00:00+03:00",
+          "stadium": 10,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 10,
+          "type": "group",
+          "home_team": 19,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 20,
+          "home_result": 0,
+          "away_result": 1,
+          "date": "2018-06-17T16:00:00+04:00",
+          "stadium": 7,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 25,
+          "type": "group",
+          "home_team": 17,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 19,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-22T15:00:00+03:00",
+          "stadium": 3,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 26,
+          "type": "group",
+          "home_team": 20,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 18,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-22T20:00:00+02:00",
+          "stadium": 4,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 41,
+          "type": "group",
+          "home_team": 20,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 17,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-27T21:00:00+03:00",
+          "stadium": 2,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 42,
+          "type": "group",
+          "home_team": 18,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 19,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-27T21:00:00+03:00",
+          "stadium": 6,
+          "channels": [5,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "f": {
+      "name": "Group F",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 11,
+          "type": "group",
+          "home_team": 21,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 22,
+          "home_result": 1,
+          "away_result": 1,
+          "date": "2018-06-17T18:00:00+03:00",
+          "stadium": 1,
+          "channels": [3,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 12,
+          "type": "group",
+          "home_team": 23,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 24,
+          "home_result": 1,
+          "away_result": 0,
+          "date": "2018-06-18T15:00:00+03:00",
+          "stadium": 6,
+          "channels": [4,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 27,
+          "type": "group",
+          "home_team": 21,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 23,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-23T21:00:00+03:00",
+          "stadium": 11,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 28,
+          "type": "group",
+          "home_team": 24,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 22,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-23T18:00:00+03:00",
+          "stadium": 10,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 43,
+          "type": "group",
+          "home_team": 24,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 21,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-27T17:00:00+03:00",
+          "stadium": 5,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 44,
+          "type": "group",
+          "home_team": 22,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 23,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-27T19:00:00+05:00",
+          "stadium": 12,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "g": {
+      "name": "Group G",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 13,
+          "type": "group",
+          "home_team": 25,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 26,
+          "home_result": 3,
+          "away_result": 0,
+          "date": "2018-06-18T18:00:00+03:00",
+          "stadium": 11,
+          "channels": [3,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 14,
+          "type": "group",
+          "home_team": 27,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 28,
+          "home_result": 1,
+          "away_result": 2,
+          "date": "2018-06-18T21:00:00+03:00",
+          "stadium": 8,
+          "channels": [3,6],
+          "finished": true,
+          "matchday": 1
+        },
+        {
+          "name": 29,
+          "type": "group",
+          "home_team": 25,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 27,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-23T15:00:00+03:00",
+          "stadium": 2,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 30,
+          "type": "group",
+          "home_team": 28,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 26,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-24T15:00:00+03:00",
+          "stadium": 6,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 45,
+          "type": "group",
+          "home_team": 28,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 25,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-28T20:00:00+02:00",
+          "stadium": 4,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 46,
+          "type": "group",
+          "home_team": 26,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 27,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-28T21:00:00+03:00",
+          "stadium": 9,
+          "channels": [5,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    },
+    "h": {
+      "name": "Group H",
+      "winner": null,
+      "runnerup": null,
+      "matches": [
+        {
+          "name": 15,
+          "type": "group",
+          "home_team": 29,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 30,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-19T18:00:00+03:00",
+          "stadium": 2,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "name": 16,
+          "type": "group",
+          "home_team": 31,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 32,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-19T15:00:00+03:00",
+          "stadium": 9,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 1
+        },
+        {
+          "name": 31,
+          "type": "group",
+          "home_team": 29,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 31,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-24T20:00:00+05:00",
+          "stadium": 5,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 32,
+          "type": "group",
+          "home_team": 32,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 30,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-24T21:00:00+03:00",
+          "stadium": 12,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 2
+        },
+        {
+          "name": 47,
+          "type": "group",
+          "home_team": 32,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 29,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-28T17:00:00+03:00",
+          "stadium": 8,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        },
+        {
+          "name": 48,
+          "type": "group",
+          "home_team": 30,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_team": 31,
+          "home_result": null,
+          "away_result": null,
+          "date": "2018-06-28T18:00:00+04:00",
+          "stadium": 7,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 3
+        }
+      ]
+    }
+  },
+  "knockout": {
+    "round_16": {
+      "name": "Round of 16",
+      "matches": [
+        {
+          "name": 49,
+          "type": "qualified",
+          "home_team": "winner_a",
+          "away_team": "runner_b",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-06-30T17:00:00+03:00",
+          "stadium": 11,
+          "channels": [4],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 50,
+          "type": "qualified",
+          "home_team": "winner_c",
+          "away_team": "runner_d",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-06-30T21:00:00+03:00",
+          "stadium": 5,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 51,
+          "type": "qualified",
+          "home_team": "winner_b",
+          "away_team": "runner_a",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-01T17:00:00+03:00",
+          "stadium": 1,
+          "channels": [3],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 52,
+          "type": "qualified",
+          "home_team": "winner_d",
+          "away_team": "runner_c",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-01T21:00:00+03:00",
+          "stadium": 6,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 53,
+          "type": "qualified",
+          "home_team": "winner_e",
+          "away_team": "runner_f",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-02T18:00:00+04:00",
+          "stadium": 7,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 54,
+          "type": "qualified",
+          "home_team": "winner_g",
+          "away_team": "runner_h",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-02T21:00:00+03:00",
+          "stadium": 10,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 55,
+          "type": "qualified",
+          "home_team": "winner_f",
+          "away_team": "runner_e",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-03T17:00:00+03:00",
+          "stadium": 3,
+          "channels": [4,6],
+          "finished": false,
+          "matchday": 4
+        },
+        {
+          "name": 56,
+          "type": "qualified",
+          "home_team": "winner_h",
+          "away_team": "runner_g",
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-03T21:00:00+03:00",
+          "stadium": 2,
+          "channels": [3,6],
+          "finished": false,
+          "matchday": 4
+        }
+      ]
+    },
+    "round_8": {
+      "name": "Quarter-finals",
+      "matches": [
+        {
+          "name": 57,
+          "type": "winner",
+          "home_team": 49,
+          "away_team": 50,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-06T17:00:00+03:00",
+          "stadium": 6,
+          "channels": [3],
+          "finished": false,
+          "matchday": 5
+        },
+        {
+          "name": 58,
+          "type": "winner",
+          "home_team": 53,
+          "away_team": 54,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-06T21:00:00+03:00",
+          "stadium": 5,
+          "channels": [3],
+          "finished": false,
+          "matchday": 5
+        },
+        {
+          "name": 59,
+          "type": "winner",
+          "home_team": 51,
+          "away_team": 52,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-07T21:00:00+03:00",
+          "stadium": 11,
+          "channels": [4],
+          "finished": false,
+          "matchday": 5
+        },
+        {
+          "name": 60,
+          "type": "winner",
+          "home_team": 55,
+          "away_team": 56,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-07T18:00:00+04:00",
+          "stadium": 7,
+          "channels": [4],
+          "finished": false,
+          "matchday": 5
+        }
+      ]
+    },
+    "round_4": {
+      "name": "Semi-finals",
+      "matches": [
+        {
+          "name": 61,
+          "type": "winner",
+          "home_team": 57,
+          "away_team": 58,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-10T21:00:00+03:00",
+          "stadium": 3,
+          "channels": [4],
+          "finished": false,
+          "matchday": 6
+        },
+        {
+          "name": 62,
+          "type": "winner",
+          "home_team": 59,
+          "away_team": 60,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-11T21:00:00+03:00",
+          "stadium": 1,
+          "channels": [3],
+          "finished": false,
+          "matchday": 6
+        }
+      ]
+    },
+    "round_2_loser": {
+      "name": "Third place play-off",
+      "matches": [
+        {
+          "name": 63,
+          "type": "loser",
+          "home_team": 61,
+          "away_team": 62,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-14T17:00:00+03:00",
+          "stadium": 3,
+          "channels": [4],
+          "finished": false,
+          "matchday": 7
+        }
+      ]
+    },
+    "round_2": {
+      "name": "Final",
+      "matches": [
+        {
+          "name": 64,
+          "type": "winner",
+          "home_team": 61,
+          "away_team": 62,
+          "home_result": null,
+          "home_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_squad":{
+"squad":[],"scorer":[],"redCards":[],"assists":[]
+},
+          "away_result": null,
+          "home_penalty": null,
+          "away_penalty": null,
+          "winner": null,
+          "date": "2018-07-15T18:00:00+03:00",
+          "stadium": 1,
+          "channels": [3, 4],
+          "finished": false,
+          "matchday": 7
+        }
+      ]
+    }
+  }
+}

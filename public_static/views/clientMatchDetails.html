@@ -1,0 +1,455 @@
+<div class="col-sm-8" ng-if="!currentMatch.finished">
+    <div class="mainPage"></div>
+
+    <div class="scoreLineShade">
+        <div class="centerScore">
+            <div class="leftTeam"><img ng-src="{{home_flag}}" alt="" height="45" width="65"></div>
+            <div class="scoring">
+                <div class="leftName">{{teamsName[home_name]}}</div>
+                <div class="centerTile">
+                    <div  class="" ng-show="vs">
+                        <div class="col-sm-4">
+                            <div class="homeScore"><b><textarea ng-change="changeDetails('home',home)" rows="1" cols="1" style="border:none;resize:none;overflow:hidden;background-color:rgb(240, 0, 80); " ng-model="home">{{home}}</textarea></b></div>
+                        </div>
+                        <div class="col-sm-4">&nbsp-</div>
+                        <div class="col-sm-4">
+                            <div class="awayScore"><b><textarea ng-change="changeDetails('away',away)" rows="1" cols="1" style="border:none;resize:none;overflow:hidden;background-color:rgb(240, 0, 80); " ng-model="away">{{away}}</textarea></b></div>
+                        </div>
+                    </div>
+                    <div class="" ng-show="!vs" style="text-align: center;padding-left: 5px;" >vs</div>
+
+                </div>
+                <div class="rightName">{{teamsName[away_name]}}</div>
+            </div>
+            <div class="rightTeam"><img ng-src="{{away_flag}}" alt="" height="45" width="65"></div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div class="topTeam">
+        <div class="row" style="margin:0;">
+            <div class="col-sm-4 flag" style="align-items: center">
+                <img ng-src="{{home_flag}}" alt="" height="45" width="65">
+                <p>{{teamsName[home_name]}}</p>
+            </div>
+            <div class="col-sm-4 centerTopFlag">
+                <img ng-src="{{home_flag}}" alt="" height="45" width="65">
+            </div>
+            <div class="col-sm-4 flag">
+                <img ng-src="{{away_flag}}" alt="" height="45" width="65">
+                <p>{{teamsName[away_name]}}</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="lineUp">
+
+        <div class="row" style="margin:0;">
+            <div class="col-sm-4">
+                <div class="row3">Goalkeeper</div>
+                <div class="goalkeeper" ng-repeat="x in homeGroup.Goalkeeper">
+                    <div ng-dblclick="updateGoal()" class="row2" ><span class="pName">{{x[2]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pNumber">{{x[0]}}</span></div>
+
+                </div>
+                <div class="row3">Defender</div>
+                <div class="defender" ng-repeat="x in homeGroup.Defender">
+                    <div ng-dblclick="updateGoal()" class="row2" ><span class="pName">{{x[2]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pNumber">{{x[0]}}</span></div>
+
+                </div>
+                <div class="row3">Midfielder</div>
+                <div class="midfielder" ng-repeat="x in homeGroup.Midfielder">
+                    <div ng-dblclick="updateGoal()" class="row2"><span class="pName">{{x[2]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pNumber">{{x[0]}}</span></div>
+
+                </div>
+                <div class="row3">Forward</div>
+                <div class="forward" ng-repeat="x in homeGroup.Forward">
+                    <div  ng-dblclick="updateGoal()" class="row2" ><span class="pName">{{x[2]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pNumber">{{x[0]}}</span></div>
+
+                </div>
+            </div>
+            <div class="col-sm-4 field" id="container" >
+                <div class="row">
+                    <div class="col-sm-12 h1">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 h2">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                    <div class="col-sm-3 h3">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                    <div class="col-sm-3 h4">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                    <div class="col-sm-3 h5">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 h6">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                    <div class="col-sm-4 h7">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                    <div class="col-sm-4 h8">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 h9">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                    <div class="col-sm-6 h10">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 h11">
+                        <div class="circlePlayer" ></div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-6 a1">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                    <div class="col-sm-6 a2">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-3 a3">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                    <div class="col-sm-3 a4">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                    <div class="col-sm-3 a5">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                    <div class="col-sm-3 a6">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-12 a7">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 a8">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                    <div class="col-sm-4 a9">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                    <div class="col-sm-4 a10">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 a11">
+                        <div class="circlePlayer1" ></div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-4 centerBottomFlag">
+                        <img ng-src="{{away_flag}}" alt="" height="45" width="65">
+                    </div>
+                </div>
+
+
+                <!--<div class="row finalSubmit">-->
+                    <!--<button type="submit" >Submit Match Details</button>-->
+                <!--</div>-->
+                <div class="errorMessage">
+                    All 22 players not selected.
+                </div>
+
+
+
+            </div>
+            <div class="col-sm-4">
+
+                <div class="row4">Goalkeeper</div>
+                <div class="goalkeeper" ng-repeat="x in awayGroup.Goalkeeper">
+                    <div ng-dblclick="updateGoal1()" class="row5" ><span class="pNumber">{{x[0]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pName">{{x[2]}}</span></div>
+
+                </div>
+                <div class="row4">Defender</div>
+                <div class="defender" ng-repeat="x in awayGroup.Defender">
+                    <div  ng-dblclick="updateGoal1()" class="row5" ><span class="pNumber">{{x[0]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pName">{{x[2]}}</span></div>
+
+                </div>
+                <div class="row4">Midfielder</div>
+                <div class="midfielder" ng-repeat="x in awayGroup.Midfielder">
+                    <div ng-dblclick="updateGoal1()" class="row5" ><span class="pNumber">{{x[0]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pName">{{x[2]}}</span></div>
+
+                </div>
+                <div class="row4">Forward</div>
+                <div class="forward" ng-repeat="x in awayGroup.Forward">
+                    <div  ng-dblclick="updateGoal1()" class="row5" ><span class="pNumber">{{x[0]}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pName">{{x[2]}}</span></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+<div class="col-sm-8" ng-if="currentMatch.finished">
+    <div class="mainPage"></div>
+
+    <div class="scoreLineShade">
+        <div class="centerScore">
+            <div class="leftTeam"><img ng-src="{{home_flag}}" alt="" height="45" width="65"></div>
+            <div class="scoring">
+                <div class="leftName">{{teamsName[home_name]}}</div>
+                <div class="centerTile">
+                    <div  class="" ng-show="vs">
+                        <div class="col-sm-4">
+                            <div class="homeScore"><b><textarea readonly  rows="1" cols="1" style="border:none;resize:none;overflow:hidden;background-color:rgb(240, 0, 80); " ng-model="home">{{home}}</textarea></b></div>
+                        </div>
+                        <div class="col-sm-4">&nbsp-</div>
+                        <div class="col-sm-4">
+                            <div class="awayScore"><b><textarea readonly  rows="1" cols="1" style="border:none;resize:none;overflow:hidden;background-color:rgb(240, 0, 80); " ng-model="away">{{away}}</textarea></b></div>
+                        </div>
+                    </div>
+                    <div class="" ng-show="!vs" style="text-align: center;padding-left: 5px;" >vs</div>
+
+                </div>
+                <div class="rightName">{{teamsName[away_name]}}</div>
+            </div>
+            <div class="rightTeam"><img ng-src="{{away_flag}}" alt="" height="45" width="65"></div>
+        </div>
+        <div class="goalAssists">
+            <div class="row">
+                <div class="col-sm-5 homeStats" style="margin-right: 0;">
+                    <div class="homeGoal" ng-repeat="x in homeScorerG">
+                        <div class="player1_h"><img src="../img/soccer-ball.svg" alt="" height="25" width="25">{{x.name}}
+
+                            <div class="" ng-repeat="y in x.time">{{y}}</div>
+                        </div>
+                    </div>
+                    <div class="homeOwnGoal" ng-repeat="x in homeScorerOG">
+                        <div class="player2_h"><img src="../img/own-goal.svg" alt="" height="25" width="25">{{x.name}}
+
+                            <div class="" ng-repeat="y in x.time">{{y}}</div>
+                        </div>
+                    </div>
+                    <div class="homeAssist" ng-repeat="x in homeAssist">
+                        <div class="player3_h">{{x.name}} {{x.time}}
+
+
+                        </div>
+                    </div>
+                    <div class="homeRedCard" ng-repeat="x in homeRedCard">
+                        <div class="player4_h"><img src="../img/red-card-right.svg" alt="" height="25" width="25">{{x.name}} {{x.time}}
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="centerLine" ng-if="showCenterLine"></div>
+                </div>
+                <div class="col-sm-5 awayStats">
+                    <div class="awayGoal" ng-repeat="x in awayScorerG">
+                        <div class="player1_a"> {{x.name}}<img src="../img/soccer-ball.svg" alt="" height="25" width="25">
+
+                            <div class="" ng-repeat="y in x.time">{{y}}</div>
+                        </div>
+                    </div>
+                    <div class="awayOwnGoal" ng-repeat="x in awayScorerOG">
+                        <div class="player2_a">{{x.name}}<img src="../img/own-goal.svg" alt="" height="25" width="25">
+
+                            <div class="" ng-repeat="y in x.time">{{y}}</div>
+
+                        </div>
+                    </div>
+                    <div class="awayAssist" ng-repeat="x in awayAssist">
+                        <div class="player3_a">{{x.time}}  {{x.name}}
+
+                        </div>
+
+                    </div>
+                    <div class="awayRedCard" ng-repeat="x in awayRedCard">
+                        <div class="player4_a"> {{x.time}} {{x.name}}<img src="../img/red-card-right.svg" alt="" height="25" width="25">
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="topTeam">
+        <div class="row" style="margin:0;">
+            <div class="col-sm-4 flag" style="align-items: center">
+                <img ng-src="{{home_flag}}" alt="" height="45" width="65">
+                <p>{{teamsName[home_name]}}</p>
+            </div>
+            <div class="col-sm-4 centerTopFlag">
+                <img ng-src="{{home_flag}}" alt="" height="45" width="65">
+            </div>
+            <div class="col-sm-4 flag">
+                <img ng-src="{{away_flag}}" alt="" height="45" width="65">
+                <p>{{teamsName[away_name]}}</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="lineUp">
+
+        <div class="row" style="margin:0;">
+            <div class="col-sm-4">
+                <div class="row3">Starting 11</div>
+                <div class="goalkeeper" ng-repeat="x in playing11_home">
+                    <div class="row2"><span class="pName">{{x.name}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pNumber">{{x.number}}</span></div>
+                </div>
+                <div class="row3">Substitute</div>
+                <div class="goalkeeper" ng-repeat="x in subs_home">
+                    <div class="row2"><span class="pName">{{x.name}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pNumber">{{x.number}}</span></div>
+                </div>
+
+            </div>
+            <div class="col-sm-4 field"  >
+                <div class="row">
+                    <div class="col-sm-12 h1">
+                        <div class="circlePlayer"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3 h2">
+                        <div class="circlePlayer"></div>
+                    </div>
+                    <div class="col-sm-3 h3">
+                        <div class="circlePlayer"></div>
+                    </div>
+                    <div class="col-sm-3 h4">
+                        <div class="circlePlayer"></div>
+                    </div>
+                    <div class="col-sm-3 h5">
+                        <div class="circlePlayer"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 h6">
+                        <div class="circlePlayer"></div>
+                    </div>
+                    <div class="col-sm-4 h7">
+                        <div class="circlePlayer"></div>
+                    </div>
+                    <div class="col-sm-4 h8">
+                        <div class="circlePlayer"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 h9">
+                        <div class="circlePlayer"></div>
+                    </div>
+                    <div class="col-sm-6 h10">
+                        <div class="circlePlayer"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 h11">
+                        <div class="circlePlayer"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-sm-6 a1">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                    <div class="col-sm-6 a2">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-3 a3">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                    <div class="col-sm-3 a4">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                    <div class="col-sm-3 a5">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                    <div class="col-sm-3 a6">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-sm-12 a7">
+                        <div class="circlePlayer1"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 a8">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                    <div class="col-sm-4 a9">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                    <div class="col-sm-4 a10">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 a11">
+                        <div class="circlePlayer1"></div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-4 centerBottomFlag">
+                        <img ng-src="{{away_flag}}" alt="" height="45" width="65">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-sm-4">
+
+                <div class="row4">Starting 11</div>
+                <div class="goalkeeper" ng-repeat="x in playing11_away">
+                    <div class="row5"><span class="pNumber">{{x.number}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pName">{{x.name}}</span></div>
+
+                </div>
+                <div class="row4">Substitute</div>
+
+                <div class="goalkeeper" ng-repeat="x in subs_away">
+                    <div class="row5"><span class="pNumber">{{x.number}}</span><img src="../img/Photo-Missing.png" alt="" height="45" width="35"><span class="pName">{{x.name}}</span></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>

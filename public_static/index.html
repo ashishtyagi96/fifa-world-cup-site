@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="ctrl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <title>FIFA 2018 RUSSIA</title>
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    </head>
+<body>
+
+<div ng-view>
+
+</div>
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhbDk6sYpBA7eh4K4TMzgrY8--KXQmh68&callback=initMap">
+</script>
+<script>
+    function initMap() {
+        var stadiumName=[];
+        $.ajax({
+            type:'GET',
+            url:'http://localhost:4000/getStadium',
+            contentType:'application/json',
+            data:{type:"hello"},
+            success:function (result) {
+                console.log(result);
+                stadiumName=result[0].data;
+                var locations = stadiumName;
+
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: new google.maps.LatLng(53,36)
+                });
+
+                var infowindow = new google.maps.InfoWindow();
+
+                var marker, i;
+
+                for (i = 0; i < locations.length; i++) {
+                    marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+                        map: map
+                    });
+
+                    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+                        return function() {
+                            infowindow.setContent('<div style="text-align: center;margin-left: 20px;">' +
+                                '<h3 style="color: rgb(70, 0, 64);">'+locations[i].name+'</h3>' +
+                                '<h5 style="color: grey;">'+locations[i].city+'</h5>' +
+                                '<img src="'+locations[i].image+'" style="height: 130px; width: 200px;border: 2px solid rgb(173, 255, 191)">' +
+                                '</div>');
+                            infowindow.open(map, marker);
+                        }
+                    })(marker, i));
+                }
+
+
+
+            }
+        });
+
+    }
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+<!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+<script>
+    //Make the DIV element draggagle:
+
+</script>
+
+
+<script src="js/app.route.js"></script>
+<script src="controllers/ctrl.js"></script>
+<script src="controllers/timer.js"></script>
+<script src="controllers/stats.js"></script>
+<script src="controllers/group.js"></script>
+<script src="controllers/round16.js"></script>
+<script src="controllers/quarterFinal.js"></script>
+<script src="controllers/semiFinal.js"></script>
+<script src="controllers/thirdPlace.js"></script>
+<script src="controllers/final.js"></script>
+<script src="services/myArray.js"></script>
+
+<!--<script src="http://maps.google.com/maps/api/js?key=&sensor=false"-->
+        <!--type="text/javascript"></script>-->
+<!--<script src="app.js"></script>-->
+
+
+</body>
+</html>

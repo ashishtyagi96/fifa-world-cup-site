@@ -1,0 +1,26 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" target="_self">
+                <img class="img-responsive" src="img/WorldCup2018.png" alt="" width="80" height="80">
+            </a>
+        </div>
+        <h1 class="fifaHeading">2018 FIFA WORLD CUP RUSSIA</h1>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li ng-class="{'active':homeCon}"><a ng-click=flipClick('')><b>Home</b></a></li>
+                <li ng-class="{'active':matchCon}"><a  ng-click="flipClick('match')"><b>Matches</b></a></li>
+                <li ng-class="{'active':groupTableCon}"><a ng-click="flipClick('groupTable')"><b>Group tables</b></a></li>
+                <li ng-class="{'active':stadiumCon}"><a ng-click="flipClick('stadium')"><b>Stadium</b></a></li>
+            </ul>
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a ng-click=flipClick('admin')><b>Admin</b></a></li>-->
+            <!--</ul>-->
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,121 @@
+<!--<nav class="navbar navbar-inverse" ng-init="adminCon=true">-->
+    <!--<div class="container-fluid">-->
+        <!--<div class="navbar-header">-->
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            <!--</button>-->
+            <!--<a class="navbar-brand" href="#" target="_self">-->
+                <!--<img class="img-responsive" src="img/WorldCup2018.png" alt="" width="80" height="80">-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<h1 class="fifaHeading">2018 FIFA WORLD CUP RUSSIA</h1>-->
+        <!--<div class="collapse navbar-collapse" id="myNavbar">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li ng-class="{'active':homeCon}"><a ng-click=flipClick('')><b>Home</b></a></li>-->
+                <!--<li ng-class="{'active':matchCon}"><a  ng-click="flipClick('match')"><b>Matches</b></a></li>-->
+                <!--<li ng-class="{'active':groupTableCon}"><a ng-click="flipClick('groupTable')"><b>Group tables</b></a></li>-->
+                <!--<li ng-class="{'active':stadiumCon}"><a ng-click="flipClick('stadium')"><b>Stadium</b></a></li>-->
+            <!--</ul>-->
+            <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li ng-class="{'active':adminCon}"><a ng-click=flipClick('admin')>Admin</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</nav>-->
+<!--<div ng-include="'shared/sideBar.html'"></div>-->
+<!--<div ng-include="'views/groupStage.html'" ng-if="toggleSide.groupCon" ng-controller="groupMatch"></div>-->
+<!--<div ng-include="'views/round16.html'" ng-if="toggleSide.r16Con" ng-controller="round16"></div>-->
+<!--<div ng-include="'views/quarterFinal.html'" ng-if="toggleSide.quarterCon" ng-controller="quarterFinal"></div>-->
+<!--<div ng-include="'views/semiFinal.html'" ng-if="toggleSide.semiCon" ng-controller="semiFinal"></div>-->
+<!--<div ng-include="'views/thirdPlace.html'" ng-if="toggleSide.thirdCon" ng-controller="thirdPlace"></div>-->
+<!--<div ng-include="'views/final.html'" ng-if="toggleSide.finalCon" ng-controller="final"></div>-->
+<!--<div ng-include="'views/adminMatchDetails.html'" ng-if="toggleSide.matchDetails"></div>-->
+
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" ng-controller="ctrl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <title>FIFA 2018 RUSSIA</title>
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-inverse" ng-init="adminCon=true">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" target="_self">
+                    <img class="img-responsive" src="img/WorldCup2018.png" alt="" width="80" height="80">
+                </a>
+            </div>
+            <h1 class="fifaHeading">2018 FIFA WORLD CUP RUSSIA</h1>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <!--<ul class="nav navbar-nav">-->
+                    <!--<li ng-class="{'active':homeCon}"><a ng-click=flipClick('')><b>Home</b></a></li>-->
+                    <!--<li ng-class="{'active':matchCon}"><a  ng-click="flipClick('match')"><b>Matches</b></a></li>-->
+                    <!--<li ng-class="{'active':groupTableCon}"><a ng-click="flipClick('groupTable')"><b>Group tables</b></a></li>-->
+                    <!--<li ng-class="{'active':stadiumCon}"><a ng-click="flipClick('stadium')"><b>Stadium</b></a></li>-->
+                <!--</ul>-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li ng-class="{'active':adminCon}"><a ng-click=flipClick('admin')>Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div ng-include="'shared/sideBar.html'"></div>
+    <div ng-include="'views/groupStage.html'" ng-if="toggleSide.groupCon" ng-controller="groupMatch"></div>
+    <div ng-include="'views/round16.html'" ng-if="toggleSide.r16Con" ng-controller="round16"></div>
+    <div ng-include="'views/quarterFinal.html'" ng-if="toggleSide.quarterCon" ng-controller="quarterFinal"></div>
+    <div ng-include="'views/semiFinal.html'" ng-if="toggleSide.semiCon" ng-controller="semiFinal"></div>
+    <div ng-include="'views/thirdPlace.html'" ng-if="toggleSide.thirdCon" ng-controller="thirdPlace"></div>
+    <div ng-include="'views/final.html'" ng-if="toggleSide.finalCon" ng-controller="final"></div>
+    <div ng-include="'views/adminMatchDetails.html'" ng-if="toggleSide.matchDetails"></div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>-->
+<!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+<script>
+    //Make the DIV element draggagle:
+
+</script>
+
+
+<script src="js/app.route.js"></script>
+<script src="controllers/ctrl.js"></script>
+<script src="controllers/timer.js"></script>
+<script src="controllers/stats.js"></script>
+<script src="controllers/group.js"></script>
+<script src="controllers/round16.js"></script>
+<script src="controllers/quarterFinal.js"></script>
+<script src="controllers/semiFinal.js"></script>
+<script src="controllers/thirdPlace.js"></script>
+<script src="controllers/final.js"></script>
+<script src="services/myArray.js"></script>
+
+<!--<script src="http://maps.google.com/maps/api/js?key=&sensor=false"-->
+<!--type="text/javascript"></script>-->
+<!--<script src="app.js"></script>-->
+
+
+</body>
+</html>

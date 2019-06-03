@@ -1,0 +1,238 @@
+<div ng-include="'shared/navbar.html'" ng-init="homeCon=true;"></div>
+<div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-14 col-md-8">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/pic1.jpg" alt="Los Angeles" style="width:100%;">
+                            <h2>Russia 2018 squads officially confirmed</h2>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/pic2.jpg" alt="Chicago" style="width:100%;">
+                            <h2>The squad in stats.</h2>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/pic3.jpg" alt="New york" style="width:100%;">
+                            <h2>Kim:We can progress beyond the group phase</h2>
+                        </div>
+                    </div>
+
+                    <a class="left carousel-control" href="#myCarousel" target="_self" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel"  target="_self" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="timer" ng-controller="timer" ng-if="timer">
+                    <h2><span>Tournament starts in:</span><span class="changeFont">{{leftYears}} </span> {{Year}}&nbsp&nbsp   <span class="changeFont">{{leftMonths}}</span> {{Months}}&nbsp&nbsp  <span class="changeFont">{{leftDays}}</span> {{Days}}&nbsp&nbsp <span class="changeFont">{{leftHours}}</span>{{Hours}}&nbsp&nbsp <span class="changeFont">{{leftMinutes}}</span> {{Minutes}}  </h2>
+                </div>
+            </div>
+            <div class="col-4 col-md-4 statsTable">
+                <div class="panel-group" id="accordion" ng-controller="stats">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" target="_self">
+                                    Player Stats</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+
+                                <div class="panel-group" id="accordion1">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse3" target="_self">
+                                                    Top Scorer</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse3" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <table >
+                                                    <tr ng-repeat="x in topScorer  | orderBy:'-goals' | limitTo:5">
+                                                        <td>{{x.name}}</td>
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.goals}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse4" target="_self">
+                                                    Most Assists</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse4" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr ng-repeat="x in mostAssist |  orderBy:'-goals' | limitTo:5">
+                                                        <td>{{x.name}}</td>
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.goals}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse5" target="_self">
+                                                    Clean Sheets</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse5" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr ng-repeat="x in cleanSheet | orderBy:'-matches' | limitTo:5">
+                                                        <td>{{x.name}}</td>
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.matches}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion1" href="#collapse7" target="_self">
+                                                    Red Cards</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse7" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr ng-repeat="x in redCard | orderBy:'-matches' | limitTo:5">
+                                                        <td>{{x.name}}</td>
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.matches}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" target="_self">
+                                    Team Stats</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+
+
+
+                                <div class="panel-group" id="accordion2">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse12" target="_self">
+                                                    Goals</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse12" class="panel-collapse collapse in">
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr ng-repeat="x in goal | orderBy:'-goals' | limitTo:5">
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.goals}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse10" target="_self">
+                                                    Clean Sheets</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse10" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr ng-repeat="x in cleanSheetT | orderBy:'-matches' | limitTo:5">
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.matches}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title">
+                                                <a data-toggle="collapse" data-parent="#accordion2" href="#collapse9" target="_self">
+                                                    Red Cards</a>
+                                            </h4>
+                                        </div>
+                                        <div id="collapse9" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <table>
+                                                    <tr ng-repeat="x in redCardT | orderBy:'-number' | limitTo:5">
+                                                        <td>{{x.team}}</td>
+                                                        <td>{{x.number}}</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid groupTable">
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="x in groups1">
+                <table class="newTable">
+                    <tr>
+                        <th>{{x.name}}</th>
+                    </tr>
+                    <tr ng-repeat="y in x.val">
+                        <td><img ng-src={{y.flag}} alt="" height="15" width="25">&nbsp&nbsp&nbsp{{y.team}}</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="x in groups2">
+                <table class="newTable">
+                    <tr>
+                        <th>{{x.name}}</th>
+                    </tr>
+                    <tr ng-repeat="y in x.val">
+                        <td><img ng-src={{y.flag}} alt="" height="15" width="25">&nbsp&nbsp&nbsp{{y.team}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

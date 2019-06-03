@@ -1,0 +1,9 @@
+<div ng-include="'shared/navbar.html'" ng-init="matchCon=true;"></div>
+<div ng-include="'shared/sideBar.html'" ></div>
+<div ng-include="'views/groupStage.html'" ng-if="toggleSide.groupCon" ng-controller="groupMatch"></div>
+<div ng-include="'views/round16.html'" ng-if="toggleSide.r16Con" ng-controller="round16"></div>
+<div ng-include="'views/quarterFinal.html'" ng-if="toggleSide.quarterCon" ng-controller="quarterFinal"></div>
+<div ng-include="'views/semiFinal.html'" ng-if="toggleSide.semiCon" ng-controller="semiFinal"></div>
+<div ng-include="'views/thirdPlace.html'" ng-if="toggleSide.thirdCon" ng-controller="thirdPlace"></div>
+<div ng-include="'views/final.html'" ng-if="toggleSide.finalCon" ng-controller="final"></div>
+<div ng-include="'views/clientMatchDetails.html'" ng-if="toggleSide.matchDetails"></div>

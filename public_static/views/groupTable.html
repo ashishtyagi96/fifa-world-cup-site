@@ -1,0 +1,74 @@
+<div ng-include="'shared/navbar.html'" ng-controller="routeChange" ng-init="groupTableCon=true;"></div>
+<div class="holdingMain" ng-if="!showTeam">
+    <div class="container-fluid" style="margin-top: 30px;margin-bottom: 30px;">
+        <div class="row" >
+            <img   data-toggle="modal" data-target="#countrty-info" class="topFlag " ng-repeat="x in name_flag" ng-src={{x.flag}} alt="" height="35" width="50" data-toggle="tooltip" title={{x.team}} ng-click="changeActive($index)">
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="x in groups1">
+                <table class="newTable">
+                    <tr>
+                        <th colspan="7">
+                            {{x.name}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Team</th>
+                        <th>P</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>D</th>
+                        <th>GD</th>
+                        <th>Pts</th>
+
+                    </tr>
+                    <tr ng-repeat="y in x.val | orderBy:'-tableVal.points' | orderBy:'-tableVal.goalDifference'">
+                        <td><img ng-src={{y.flag}} alt="" height="15" width="25">&nbsp&nbsp&nbsp{{y.team}}</td>
+                        <td>{{y.tableVal.played}}</td>
+                        <td>{{y.tableVal.won}}</td>
+                        <td>{{y.tableVal.lose}}</td>
+                        <td>{{y.tableVal.draw}}</td>
+                        <td>{{y.tableVal.goalDifference}}</td>
+                        <td>{{y.tableVal.points}}</td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3" ng-repeat="x in groups2">
+                <table class="newTable">
+                    <tr>
+                        <th colspan="7">
+                            {{x.name}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Team</th>
+                        <th>P</th>
+                        <th>W</th>
+                        <th>L</th>
+                        <th>D</th>
+                        <th>GD</th>
+                        <th>Pts</th>
+
+                    </tr>
+                    <tr ng-repeat="y in x.val | orderBy:'-tableVal.points' | orderBy:'-tableVal.goalDifference'">
+                        <td><img ng-src={{y.flag}} alt="" height="15" width="25">&nbsp&nbsp&nbsp{{y.team}}</td>
+                        <td>{{y.tableVal.played}}</td>
+                        <td>{{y.tableVal.won}}</td>
+                        <td>{{y.tableVal.lose}}</td>
+                        <td>{{y.tableVal.draw}}</td>
+                        <td>{{y.tableVal.goalDifference}}</td>
+                        <td>{{y.tableVal.points}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-include="'shared/teamSheet.html'" ng-if="showTeam"></div>

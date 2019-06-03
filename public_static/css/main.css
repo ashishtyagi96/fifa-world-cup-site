@@ -1,0 +1,915 @@
+body{
+    user-select: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    background-image: url("../img/pattern1.jpeg");
+    background-size: 20%;
+    min-height: 60px;
+    padding: 10px;
+}
+#myNavbar{
+    margin-left: 100px;
+
+}
+.fifaHeading{
+    margin-left: 115px;
+    color: white;
+    font-family: 'Chewy', cursive;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: rgba(211,211,211,0.3);
+    color: rgba(255,255,255,0.5);
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: rgba(211,211,211,0.5);
+    color: rgba(255,255,255,1);
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse .navbar-nav>.navbar-right>.active>a{
+    background-color: rgba(211,211,211,0.3);
+    color: rgba(255,255,255,0.5);
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse .navbar-nav>.navbar-right>.active>a:hover{
+    background-color: rgba(211,211,211,0.5);
+    color: rgba(255,255,255,1);
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 1.2em;
+    font-family: 'Istok Web', sans-serif;
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgba(255,255,255,1);
+    transition-duration: 0.5s;
+
+}
+
+.navbar-inverse .navbar-nav>.navbar-right>li>a{
+    font-size: 1.2em;
+    font-family: 'Istok Web', sans-serif;
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse .navbar-nav>.navbar-right>li>a:hover{
+    color: rgba(255,255,255,1);
+    transition-duration: 0.5s;
+
+}
+.navbar-inverse{
+    padding: 0;
+}
+.item > h2{
+    position: absolute;
+    bottom: 1%;
+    left: 15%;
+    z-index: 20;
+    color: white;
+    text-shadow: 2px 1px 2px rgba(0,0,0,.6);
+
+}
+.navbar-inverse .navbar-nav>li>a:hover .navbar-inverse .navbar-nav>li>a{
+    background-color: transparent;
+}
+a,a:hover,a:link{
+    text-decoration: none;
+}
+.panel-heading,.panel-body{
+    text-align: center;
+}
+.panel-default>.panel-heading{
+    background-color: rgb(77,0,76);
+    color: white;
+}
+.panel-default>.panel-collapse{
+    background-color: rgb(218,255,0);
+}
+.panel-default>.panel-collapse>.panel-body{
+    background-color: whitesmoke;
+}
+.timer{
+    text-align: center;
+    font-family:  'Chewy', cursive;
+}
+.changeFont{
+    color:darkblue;
+    display: inline-block;
+    font-size: 50px;
+}
+.newTable{
+    border: 4px solid ;
+    border-color:rgb(44, 50, 152);
+    width: 100%;
+    transition-duration: 0.5s;
+    min-height: 300px;
+}
+.col-sm-3{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-top: 5px ;
+
+}
+th{
+
+    text-align: center;
+    padding: 8px;
+}
+.newTable > td{
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(44, 50, 152);
+    color: white;
+}
+table>th{
+    background-color: rgb(44, 50, 152);
+}
+.row{
+    margin-top: 20px;
+}
+table:hover{
+    cursor: pointer;
+    border-color: lightgrey;
+    transition-duration: 0.5s;
+}
+.topFlag{
+    border: 1px solid lightgrey;
+    margin:10px;
+    height:40px;
+    width: 55px;
+    transition-duration: 0.5s;
+
+
+}
+.topFlag:hover{
+    cursor:pointer;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
+
+
+
+
+.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.topLine{
+    z-index: 9;
+    background-color: rgb(63, 0, 62);
+    width:100%;
+    height:60px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+.col-sm-2{
+    font-weight: bold;
+    margin-top:20px;
+    color: white;
+}
+.secondLine{
+    background-color: yellow;
+    width:100%;
+    height:40px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    transition-duration: 0.5s;
+    transform-origin: top;
+
+}
+.flipping:hover{
+    cursor: pointer;
+}
+.flipping:hover .secondLine{
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.leftBar{
+    padding: 0;
+    background-color: rgb(63, 0, 62);
+    height: 700px;
+    width:20%;
+}
+
+.cl1{
+    display: block;
+    text-align: center;
+    width:114%;
+    padding: 0;
+    background-color: rgb(77, 0, 76);
+    margin-top: 4px;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+.arrowRight{
+    float: right;
+}
+.cl1:hover{
+    border-left: 7px solid rgb(218, 255, 0);
+    transition-duration: 0.5s;
+}
+.cl1:hover .arrowRight{
+    color: grey;
+    transition-duration: 0.5s;
+}
+.leftDiv{
+    float: left;
+    padding: 0;
+    margin:0;
+    background-color: rgb(218, 255, 0);
+    height: 50px;
+    width:8px;
+    z-index: 9;
+}
+.mainText{
+    padding: 15px;
+}
+.mainText:hover{
+    /*color: grey;*/
+    cursor: pointer;
+}
+
+.currentActive{
+    color: rgb(77, 0, 76);
+    background-color: rgb(218, 255, 0);
+    width: 125%;
+    /* box-shadow: 2px 0 3px 1px lightgrey; */
+    z-index: 99;
+}
+.currentActive:hover{
+    border: 0;
+}
+.currentActive:hover .mainText{
+    color:rgb(77, 0, 76) ;
+}
+a:hover{
+    cursor: pointer;
+}
+.labelWorldCup{
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.dateDay{
+    font-weight: bold;
+    font-size: 18px;
+}
+.fixtures{
+
+    font-size: medium;
+}
+.wholeData{
+    padding-left: 200px;
+
+}
+.matchde{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+.matchde > li{
+    border-top: 1px solid lightgrey;
+    vertical-align: middle;
+}
+.score{
+    height:35px;
+    /*width:70px;*/
+    background-color:rgb(77, 0, 76) ;
+    color:white;
+    /*line-height: 3rem;*/
+    min-width:30px;
+    text-align: center;
+    /*vertical-align: middle;*/
+    font-size: 1.4rem;
+    /*padding: 0.6rem;*/
+    margin-left: 1rem;
+    /*margin-right: 1rem;*/
+
+}
+.score > .row{
+    margin-bottom: 20px;
+}
+.matchNew{
+    border-top: 1px solid lightgrey;
+    vertical-align: middle;
+    /*margin-top: 5px;*/
+    transition-duration: 0.3s;
+}
+.matchNew:hover{
+    cursor: pointer;
+    background-color:rgb(240, 0, 80);
+    transition-duration: 0.3s;
+    color: white;
+
+}
+.matchNew:hover .score{
+    background-color: white;
+    color: rgb(77, 0, 76);
+    transition-duration: 0.3s;
+}
+.moreDetails{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.overview{
+    text-align: center;
+}
+.col-sm-5{
+    padding: 0;
+}
+.col-sm-2{
+    margin: 0;
+}
+.homeTeam,.awayTeam{
+    margin-top: 10px;
+}
+.teams{
+    margin-top: 5px;
+    height: 40px;
+
+}
+.score{
+    padding: 0;
+}
+.score >.row{
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+ul{
+    padding :18px;
+}
+.playerInfo{
+    min-height: 34rem;
+    border:1px solid lightgrey;
+    /*padding:0 1rem;*/
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    width:24.2%;
+    border-radius: 3px;
+}
+.headPic{
+    background-image: url("../img/stats-card.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: cover;
+}
+.properInfo{
+    padding: 10px;
+    text-align: right;
+    float: right;
+}
+.playerName{
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+.playerNumber{
+    font-size: 1.8rem;
+}
+.playerPos{
+    font-size: 1.4rem;
+    font-weight: lighter;
+}
+.headPic> img{
+    padding: 10px;
+
+}
+.clubInfo{
+    text-align: center;
+    color: rgb(77,0,76);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.value{
+    text-align: right;
+    font-weight: bold;
+}
+/*.tinted-image {*/
+    /*width: 100%;*/
+    /*height: 300px;*/
+    /*border: 1px solid grey;*/
+    /*margin: auto;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right;*/
+    /*background-size: contain;*/
+/*}*/
+.tinted-image > img{
+    margin: 20px;
+    border: 1px solid lightgrey;
+}
+.teamName{
+    font-weight: bold;
+    display: inline-block;
+    font-size: 6rem;
+    padding: 15px;
+    padding-left: 40px;
+}
+.teamInfo{
+    margin:20px;
+    float: left;
+    /*display: inline-block;*/
+}
+.backButton{
+    font-size: 3rem;
+    float: right;
+    margin:20px 30px;
+    cursor: pointer;
+}
+.mainPage{
+    background-image: url("../img/backImg.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    width:120%;
+    height:700px;
+}
+.scoreLineShade{
+    position: relative;
+    margin-top: -450px;
+    width:120%;
+    /*margin-top: 300px;*/
+    min-height:450px;
+    background-color: rgba(63, 0, 62,0.7);
+}
+.centerScore{
+    background-color:rgb(63, 0, 62) ;
+    width: 80%;
+    height:70px;
+    margin: 0 auto;
+}
+.scoring{
+    float: left;
+    /*background-color: cornflowerblue;*/
+    width: 76%;
+    height: 100%;
+}
+.leftTeam,.rightTeam{
+    float: left;
+    background-color: white;
+    width:12%;
+    height: 100%;
+}
+.leftTeam>img,.rightTeam>img{
+    border: 1px solid grey;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+.centerTile{
+    color: white;
+    padding-top: 10px;
+    /*padding-left: 5px;*/
+    padding-right: 20px;
+    /*margin-bottom: 20px;*/
+    font-size:30px ;
+    float: left;
+    height:100%;
+    width:20%;
+    background-color: rgb(240, 0, 80);
+}
+.leftName,.rightName{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    height:100%;
+    width:40%;
+    transition-duration: 0.3s;
+
+    /*background-color: lightgrey;*/
+}
+.leftName:hover,.rightName:hover{
+    color: rgb(240, 0, 80);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.topTeam{
+    /*background-color: grey;*/
+    height:150px;
+    width:120%;
+}
+.lineUp{
+    align-items: center;
+    background-color: white;
+    min-height:600px;
+    width:120%;
+}
+.field{
+    background-image: url("../img/lineup-pitch.jpg");
+    height: 500px;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:33.33%;
+}
+.flag{
+    margin-top:30px;
+}
+.flag>img{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+    border:2px solid lightsteelblue;
+    padding: 2px;
+}
+.flag>p{
+    padding-top: 10px;
+    text-align: center;
+    color: grey;
+    font-size: 15px;
+}
+.centerTopFlag>img{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+    display: block;
+    border:2px solid lightsteelblue;
+    padding: 2px;
+}
+.centerBottomFlag>img{
+
+    margin-top:10px;
+    margin-left: 150%;
+    display: block;
+    border:2px solid lightsteelblue;
+    padding: 2px;
+}
+.pName{
+    font-size: 13px;
+    font-weight: bold;
+}
+.pNumber{
+    color: grey;
+}
+
+/*.circlePlayer{*/
+/*border:2px solid white;*/
+/*border-radius: 50%;*/
+/*height: 20px;*/
+/*width:20px;*/
+/*background-color: rgb(127, 30, 55);*/
+/*}*/
+
+
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.shape {
+    /*display: inline-block;*/
+    /*display: inline-block;*/
+    color: white;
+    padding: auto;
+    z-index: 999;
+    border:2px solid white;
+    border-radius:50%;
+    /*position: absolute;*/
+    width : 30px;
+    height: 30px;
+    background-color: rgb(127, 30, 55);
+}
+.circlePlayer{
+    color: white;
+    padding: auto;
+    z-index: 999;
+    border:2px solid white;
+    border-radius:50%;
+    /*position: absolute;*/
+    width : 30px;
+    height: 30px;
+    background-color: rgb(113, 160, 227);
+}
+.done{
+    background-color: rgb(127, 30, 55) ;
+}
+.circlePlayer1{
+    color: white;
+    padding: auto;
+    z-index: 999;
+    border:2px solid white;
+    border-radius:50%;
+    /*position: absolute;*/
+    width : 30px;
+    height: 30px;
+    background-color: rebeccapurple;
+}
+.h1,.h2,.h3,.h4,.h5,.h6,.h7,.h8,.h9,.h10,.h11{
+    margin:0;
+}
+.h1>div,.h2>div,.h3>div,.h4>div,.h5>div,.h6>div,.h7>div,.h8>div,.h9>div,.h10>div,.h11>div{
+    margin:0 auto;
+}
+
+.h11{
+    margin-top: -13px;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11 {
+    margin: 0;
+}
+.a1>div,.a2>div,.a3>div,.a4>div,.a5>div,.a6>div,.a7>div,.a8>div,.a9>div,.a10>div,.a11>div{
+    margin:0 auto;
+}
+.a1,.a2{
+    margin-top: -13px;
+}
+.h6>div,.h9>div,.a1>div,.a8>div{
+    margin-right: 0;
+}
+.h8>div,.h10>div,.a2>div,.a10>div{
+    margin-left: 0;
+}
+.a7{
+    margin-top: -5px;
+}
+.row2{
+    margin-left: 20%;
+    float: right;
+    margin-top: 10px;
+    border-bottom: 0.5px solid lightgrey;
+}
+.selected{
+    background-color: lightblue;
+}
+.row2>img{
+    margin:0 12px ;
+}
+.row3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30%;
+    float: right;
+    margin-top: 30px;
+}
+.row5{
+    margin-right: 20%;
+    float: left;
+    margin-top: 10px;
+    border-bottom: 0.5px solid lightgrey;
+}
+.row5>img{
+    margin:0 12px ;
+}
+.row4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 30%;
+    float: left;
+    margin-top: 30px;
+}
+
+.row2:hover,.row5:hover{
+    cursor: pointer;
+}
+.row2:hover .pName{
+
+    color: rgb(240, 0, 80);
+    transition-duration: 0.3s;
+    font-size: 14px;
+}
+.row5:hover .pName{
+    color:rgb(240, 0, 80);
+    transition-duration: 0.3s;
+    font-size: 14px;
+}
+/*.goalkeeper>span{*/
+    /*float: right;*/
+/*}*/
+.settingNumber{
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+    /*margin-top: -30px;*/
+    padding: 8px 9px;
+
+}
+.playerList{
+    /*pointer-events: none;*/
+    background-color: lightpink;
+}
+.done1{
+    background-color: rgb(51, 0, 158);
+}
+.popBox{
+    /*border-radius: 5px;*/
+    display: none;
+    z-index:9999;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 323px;
+    height: 250px;
+    width:350px;
+    background-color: rgb(247, 40, 70);
+    border: 5px dashed rgb(70, 0, 64);
+}
+.popBox1{
+    display: none;
+    z-index:9999;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 323px;
+    height: 250px;
+    width:350px;
+    background-color: rgb(247, 40, 70);
+    border: 5px dashed rgb(70, 0, 64);
+}
+.finalSubmit >button{
+    color: white;
+    display: block;
+    z-index:9999;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 95px;
+    height: 50px;
+    width:150px;
+    background-color: rgb(247, 40, 70);
+    border: 2px solid rgb(70, 0, 64);
+    transition-duration: 0.3s;
+}
+.errorMessage{
+    /*display: none;*/
+    visibility: hidden;
+    z-index:9999;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 67px;
+    background-color: rgb(217, 246, 215);
+    color: rgb(78, 155, 59);
+    border: 2px solid rgb(173, 255, 191);
+    transition-duration: 0.3s;
+    border-radius: 3px;
+    padding: 5px;
+    transition:all 2s linear;
+
+
+}
+.finalSubmit>button:hover{
+    color: black;
+    border: 2px solid yellowgreen;
+    transition-duration: 0.3s;
+}
+.cancelButtonPop{
+    color: white;
+    /*position: absolute;*/
+    float: right;
+    font-weight: bold;
+    padding:5px 10px;
+}
+.cancelButtonPop:hover{
+    cursor: pointer;
+}
+.popImg>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topPop{
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(70, 0, 64);
+    margin-top: -10px;
+}
+.updateOption> select{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+
+    background-color: rgb(70, 0, 64);
+    color: white;
+    border: 2px solid yellowgreen;
+}
+.updateTime{
+    margin-left:80px;
+}
+.updateTime>textarea{
+    background-color: rgb(70, 0, 64);
+    color: white;
+    text-align: center;
+    border: 2px solid yellowgreen;
+}
+.detailed{
+    margin-top: 55px;
+}
+.updateDone{
+    text-align: center;
+    border: 2px solid rgb(70, 0, 64) ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 130px;
+    transition-duration: 0.3s;
+}
+.updateDone:hover{
+    cursor: pointer;
+    border: 2px solid yellow;
+    background-color: rgb(70, 0, 64);
+    color: yellow;
+    transition-duration: 0.3s;
+}
+.updateDone{
+    background-color: rgb(70, 0, 64);
+}
+.goalAssists{
+    color: white;
+}
+.homeGoal,.homeOwnGoal,.homeAssist,.homeRedCard{
+    text-align: right;
+    padding: 5px 35px;
+
+}
+
+.homeGoal,.homeOwnGoal,.awayGoal,.awayOwnGoal{
+    font-weight: bold;
+}
+.awayGoal,.awayOwnGoal,.awayAssist,.awayRedCard{
+    text-align: left;
+    padding: 5px 20px;
+}
+.homeStats{
+    margin-left: 42px;
+}
+.awayStats{
+    margin-left: 18px;
+}
+.col-sm-1 >.centerLine{
+    min-height: 300px;
+    border-right: 1px dashed white;
+    border-left: 1px dashed white;
+}
+.awayScoreP{
+    float: left;
+    font-size: 20px;
+    color: #fff;
+}
+.homeScoreP{
+    float: right;
+    font-size: 20px;
+    color: white;
+
+}
+
+.penaltyAdmin{
+    display: none;
+    /*position: absolute;*/
+}
+.statsTable > td{
+
+}
+.groupTable td{
+    padding-left: 20px;
+}
+.statsTable td{
+    padding-left: 20px;
+}
+.statsTable tbody{
+    text-align: center;
+}
+.groupTable img{
+    border: 1px solid grey;
+    /*margin-right: 30px;*/
+}

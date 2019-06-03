@@ -1,0 +1,49 @@
+<div class="container-fluid">
+    <div class="row" style="background-color: rgb(242,242,242)">
+        <div class="tinted-image">
+            <img ng-src="{{activeTeam.flag}}" alt="" height="120" width="220"><div class="teamName">{{activeTeam.name}}</div>
+            <div class="backButton" ng-click="backButton()"><b>X</b></div>
+        </div>
+        <div class="teamInfo">
+            <div class="coach"><b>Coach</b> : {{activeTeam.coach}}</div>
+            <div class="captain"><b>Captain</b> : {{activeTeam.captain}}</div>
+        </div>
+    </div>
+    <div class="row">
+        <ul >
+            <li ng-repeat="x in activeTeam.squad" class="playerInfo">
+                <div class="headPic">
+                    <img src="../img/Photo-Missing.png" alt="" height="120" width="90">
+                    <div class="properInfo">
+                        <div class="playerNumber">{{x[0]}}</div>
+                        <div class="playerName">{{x[2]}}</div>
+                        <div class="playerPos">{{x[1]}}</div>
+                    </div>
+                </div>
+                <div class="clubInfo container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12" data-toggle="tooltip" title="Club">{{x[6]}}</div>
+                    </div>
+                </div>
+                <div class="appearances container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">Appearances</div>
+                        <div class="col-sm-6 value">{{x[4]}}</div>
+                    </div>
+                </div>
+                <div class="goalScored container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">Goals</div>
+                        <div class="col-sm-6 value">{{x[5]}}</div>
+                    </div>
+                </div>
+                <div class="ageInfo container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6">Age</div>
+                        <div class="col-sm-6 value">{{x[3]}}</div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
